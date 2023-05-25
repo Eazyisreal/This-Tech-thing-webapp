@@ -7,7 +7,7 @@ import Arrow from "../assets/images/Arrow.svg";
 export default function About (){
     return(
         <>
-            <section className="bg-[#191919] rounded-[2rem] z-10 flex flex-col-reverse md:flex-row  relative justify-betweem items-center gap-[3rem] md:gap-[14.2rem] isolate p-8  md:p-[4.5rem] lg:p-[7.5rem] ">
+            <section className="bg-[#191919] rounded-[2rem] z-10 flex flex-col-reverse md:flex-row  relative justify-betweem items-center gap-[3rem] md:gap-[14.2rem] isolate px-8 pt-20 md:p-[4.5rem] lg:p-[7.5rem] ">
                 <div className="w-full">
                     <img  className="z-20"
                     src={Dara} alt="A picture of a man"/>
@@ -15,7 +15,7 @@ export default function About (){
 
                 <div className="flex flex-col items-start gap-12 ">
                     <div className="flex flex-col items-start gap-8 "> 
-                        <h3 className="font-neue font-normal text-3xl lg:text-5xl leading-[1.3] w-full text-[#f9f9f9]">We are dedicated to  making technology accessible to all</h3>
+                        <h3 className="font-neue font-normal text-4xl lg:text-5xl leading-[1.3] w-full text-[#f9f9f9]">We are dedicated to  making technology accessible to all</h3>
                         <p className="font-neue font-normal text-opacity-50 text-base  md:text-xl text-[#f9f9f9]  leading-[1.5] ">Our mission is to provide a supportive  and  inclusive platform
                             for individuals to learn, grow and advance their careers
                              in the tech industry.
