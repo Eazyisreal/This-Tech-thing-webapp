@@ -18,7 +18,7 @@ export default function Mentorship() {
           <p className="font-neue text-[#191919] text-3xl lg:text-5xl">
             A new kind of design mentorship program built just for you
           </p>
-          <p className="font-neue text-base text-opacity-50 text-[#191919] tracking-[0.005em]"> 
+          <p className="font-neue text-base text-opacity-50 text-[#191919] tracking-[0.005em]">
             Achieving your career goals can be difficult - but it doesn’t have
             to be. Our mentorship program is designed to help you develop their
             skills and advance your design career through on-on-one mentorship

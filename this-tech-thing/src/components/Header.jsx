@@ -1,14 +1,12 @@
 import "../index.css";
 import Logo from "../assets/images/Logo.svg";
 
-
 export default function Header() {
   return (
     <>
       <header className="flex justify-between md:pt-[2rem] md:px-[6.25rem]  p-4 bg-[#F9F9F9]">
         <div>
           <img className="lg:w-1/2 w-[42%]" src={Logo} alt="" />
-
         </div>
 
         <nav className="max-sm:hidden">
