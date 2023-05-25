@@ -1,17 +1,19 @@
 import "../index.css";
+import Logo from "../assets/images/Logo.svg";
+
 
 export default function Header() {
   return (
     <>
       <header className="flex justify-between md:pt-[2rem] md:px-[6.25rem]  p-4 bg-[#F9F9F9]">
         <div>
-          <img src="" alt="" />
-          <h2 className="font-bold text-black font-roboto text-3xl ">This Tech Thing</h2>
+          <img className="lg:w-1/2 w-[42%]" src={Logo} alt="" />
+
         </div>
 
         <nav className="max-sm:hidden">
-          <ul className="flex justify-between gap-4">
-            <li className="font-normal font-neue text-base tracking-[0.005em] ">
+          <ul className="flex justify-between whitespace-nowrap gap-4">
+            <li className="font-normal font-neue  text-base tracking-[0.005em] ">
               {" "}
               <a href="">About</a>
             </li>

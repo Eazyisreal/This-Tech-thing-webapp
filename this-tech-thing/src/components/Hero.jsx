@@ -7,7 +7,7 @@ export default function Hero() {
             <section className="bg-[#F9F9F9] flex flex-row justify-between items-center sm:pt-[5rem] sm:px-[6.25rem] sm:pb-[7.5rem] px-4 py-20 gap-8 sm:gap-16">
                 <div className="flex flex-col md:flex-row  justify-between gap-[4rem]">
                     <div className="flex flex-col lg:p-12 items-start gap-8 ">
-                        <h2 className="font-semibold font-neue text-6xl w-full  text-[#191919] sm:leading-[1.3]">
+                        <h2 className="font-semibold font-neue  text-4xl lg:text-6xl w-full  text-[#191919] sm:leading-[1.3]">
                             Get mentored by <br />
                             experienced design <br />
                             professionals for free
