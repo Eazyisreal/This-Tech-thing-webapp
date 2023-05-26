@@ -5,7 +5,7 @@ import MentorshipImage from "../assets/images/Mentorship.svg";
 export default function Mentorship() {
   return (
     <>
-      <section className="bg-[#f9f9f9] rounded-[2rem] z-10 flex flex-col-reverse md:flex-row pt-20 px-8 pb-12 relative justify-betweem items-center gap-8 md:gap-[14.2rem] isolate md:p-[7.5rem] ">
+      <section className="bg-[#f9f9f9]  z-10 flex flex-col-reverse md:flex-row pt-20 px-8 pb-12 relative justify-betweem items-center gap-8 md:gap-[14.2rem] isolate md:p-[7.5rem] ">
         <div className="w-full">
           <img className="relative" src={Small} alt="" />
           <img
