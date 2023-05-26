@@ -6,8 +6,7 @@ import About from "./components/About.jsx";
 import Mentorship from "./components/Mentorship.jsx";
 import Break from "./components/Break.jsx";
 import HowItWorks from "./components/HowItWorks.jsx";
-
-
+import Steps from "./components/Steps.jsx";
 
 
 
@@ -20,6 +19,7 @@ export default function App (){
         <Mentorship/>
         <Break />
         <HowItWorks />
+        <Steps />
        </>
     );
 }

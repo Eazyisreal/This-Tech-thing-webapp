@@ -6,7 +6,7 @@ import Rline from "../assets/images/Rline.svg";
 export default function Break() {
   return (
     <>
-      <section className="bg-[#f9f9f9]  flex flex-col md:p-[7.5rem] gap-[1.5rem] py-20 px-4 ">
+      <section className="bg-[#f9f9f9]  flex flex-col lg:p-[7.5rem] gap-[1.5rem] py-20 px-4 ">
         <h3 className="font-sans font-normal text-xl flex justify-center text-[#191919] ">
           The future of your design career begins here.
         </h3>
