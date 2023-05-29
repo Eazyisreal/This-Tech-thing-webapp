@@ -7,6 +7,10 @@ import Mentorship from "./components/Mentorship.jsx";
 import Break from "./components/Break.jsx";
 import HowItWorks from "./components/HowItWorks.jsx";
 import Steps from "./components/Steps.jsx";
+import Testimonials from "./components/Testimonials.jsx";
+import Faq from "./components/Faq.jsx";
+
+
 
 
 
@@ -20,6 +24,8 @@ export default function App (){
         <Break />
         <HowItWorks />
         <Steps />
+        <Testimonials />
+        <Faq />
        </>
     );
 }

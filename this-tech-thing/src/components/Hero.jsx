@@ -19,7 +19,7 @@ export default function Hero() {
               portfolio and advance your career in the tech industry.
             </p>
             <div className="flex flex-col items-center isolate ">
-              <button className="button whitespace-nowrap w-[17rem]">
+              <button className="button text-[#191919] whitespace-nowrap w-[17rem]">
                 {" "}
                 Get started for free{" "}
               </button>

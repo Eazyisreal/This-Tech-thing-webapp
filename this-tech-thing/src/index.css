@@ -1,7 +1,35 @@
+
+
+/* @font-face{ */
+  /* font-family: 'Neue Plak'; */
+  /* src: url('./assets/fonts/Neue-Plak-Bold.ttf') format('truetype'); */
+/* } */
+
+/* @font-face{ */
+  /* font-family: 'Neue Plak'; */
+  /* src: url('./assets/fonts/Neue-Plak-Light.ttf') format('truetype'); */
+/* } */
+
 @font-face{
-    font-family: 'Neue Plak';
-    src: url('./assets/fonts/Neue-Plak.ttf') format('truetype');
+  font-family: 'Neue Plak';
+  src: url('./assets/fonts/Neue-Plak-Bold.ttf') format('truetype');
 }
+
+/* @font-face{ */
+  /* font-family: 'Neue Plak'; */
+  /* src: url('./assets/fonts/Neue-Plak-SemiBold.ttf') format('truetype'); */
+/* } */
+
+/* @font-face{ */
+  /* font-family: 'Neue Plak'; */
+  /* src: url('./assets/fonts/Neue-Plak-Thin.ttf') format('truetype'); */
+/* } */
+
+/* @font-face{ */
+  /* font-family: 'Neue Plak'; */
+  /* src: url('./assets/fonts/Neue-Plak-UltraLight.ttf') format('truetype'); */
+/* } */
+
 
 @font-face{
     font-family: 'Roboto';
@@ -81,3 +109,22 @@
     padding: 0 40px;
   }
 }
+
+.button2{
+  align-items: center;
+  background-color: #191919;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Neue Plak',sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  align-self: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
