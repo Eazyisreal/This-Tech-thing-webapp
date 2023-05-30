@@ -58,7 +58,6 @@ export default function Faq() {
               <button className="button ">
                 Contact Us
               </button>
-
         </div>
       </section>
     </>
