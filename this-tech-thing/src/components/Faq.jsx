@@ -60,7 +60,7 @@ export default function Faq() {
                 />
               </div>
               {activeIndex === index && (
-                <div className="py-[1.5rem] w-full border-[#191919]">
+                <div className="py-[1.5rem] lg:w-3/4 border-[#191919]">
                   <p className="font-neue font-normal text-base tracking-[0.015em] text-[#191919]">
                     {item.answer} <br/>
                   </p>

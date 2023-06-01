@@ -83,7 +83,10 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <div className="flex justify-center items-center  gap-[5.4rem] border-t-[#E4EBF3] border-[1px] px-8"></div>
+      <hr className="flex justify-center items-center  gap-[5.4rem] border-t-[#E4EBF3]"/>
+        <p className="font-neue text-center text-[#c2c2c2] text-sm tracking-[0.01em]">
+           © All rights reserved. This Tech Thing. 2023. Designed by Rachel Johnson
+        </p>
     </section>
   );
 }
