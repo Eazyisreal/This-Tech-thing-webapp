@@ -85,7 +85,7 @@
   left: 0;
   width: 100%;
   position: absolute;
-  top: -2px;
+  top: -1px;
   transform: translate(8px, 3px);
   transition: transform .2s ease-out;
   z-index: -1;
@@ -102,6 +102,8 @@
 
 .button:hover {
   outline: 0;
+  background-color:#191919;
+  color: #f9f9f9;
 }
 
 @media (min-width: 768px) {
@@ -113,7 +115,6 @@
 .button2{
   align-items: center;
   background-color: #191919;
-  border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
   color: #111;

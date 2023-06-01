@@ -56,9 +56,11 @@ export default function Steps() {
               </div>
             </div>
             <div className="flex w-full justify-center lg:justify-start items-center ">
-              <button className="button whitespace-nowrap">
-                Apply Now to Join our Next Cohort
-              </button>
+              <a href="">
+                <button className="button whitespace-nowrap">
+                  Apply Now to Join our Next Cohort
+                </button>
+              </a>
             </div>
           </div>
         </div>

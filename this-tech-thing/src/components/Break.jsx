@@ -1,7 +1,7 @@
 import "../index.css";
+
 import Lline from "../assets/images/Lline.svg";
 import Rline from "../assets/images/Rline.svg";
-
 
 export default function Break() {
   return (
@@ -12,11 +12,21 @@ export default function Break() {
         </h3>
 
         <div className="flex justify-between items-center gap-8">
-          <img src={Lline} className=" bg-[#191919] w-[24%] md:w-[30%] lg:w-[40%]" alt="" />
-            <button className="button whitespace-nowrap">
-                Apply Now
-            </button>
-          <img src={Rline} className=" bg-[#191919] w-[24%]  md:w-[30%] lg:w-[40%] " alt="" />
+          <img
+            src={Lline}
+            className=" bg-[#191919] w-[24%] md:w-[30%] lg:w-[40%]"
+            alt=""
+          />
+          <div className="button2 border-none pr-2 pb-2">
+            <a href="">
+              <button className=" button whitespace-nowrap">Apply Now</button>
+            </a>
+          </div>
+          <img
+            src={Rline}
+            className=" bg-[#191919] w-[24%]  md:w-[30%] lg:w-[40%] "
+            alt=""
+          />
         </div>
       </section>
     </>

@@ -1,7 +1,8 @@
 import "../index.css";
+
+import Arrow from "../assets/images/Arrow.svg";
 import Dara from "../assets/images/Dara.svg";
 import Design from "../assets/images/Design.svg";
-import Arrow from "../assets/images/Arrow.svg";
 
 export default function About() {
   return (
@@ -23,10 +24,11 @@ export default function About() {
             </p>
           </div>
           <div className="flex items-center flex-row gap-4">
-            <button className="flex  font-neue text-base md:text-xl items-center font-normal gap-4 lg:gap-8 text-[#7DB6EE] z-20 tracking-[0.015em] ">
-              {" "}
-              Learn More <img className="" src={Arrow} alt="" />{" "}
-            </button>
+            <a href="">
+              <button className="flex  font-neue text-base md:text-xl items-center font-normal gap-4 lg:gap-8 text-[#7DB6EE] z-20 tracking-[0.015em] ">
+                Learn More <img className="" src={Arrow} alt="" />{" "}
+              </button>
+            </a>
           </div>
         </div>
         <img

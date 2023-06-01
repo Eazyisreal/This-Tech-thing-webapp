@@ -1,24 +1,24 @@
-import { useState } from 'react';
 import "../index.css";
-import Book from "../assets/images/Book.svg";
+
 import Anchor from "../assets/images/Anchor.svg";
+import Book from "../assets/images/Book.svg";
 import Light from "../assets/images/Light.svg";
-import Schedule from "../assets/images/Schedule.svg";
 import Mentee from "../assets/images/Mentee.svg";
 import Menteeb from "../assets/images/Menteeb.svg";
 import Mentor from "../assets/images/Mentor.svg";
 import Mentorw from "../assets/images/Mentorw.svg";
-
+import Schedule from "../assets/images/Schedule.svg";
+import { useState } from "react";
 
 export default function HowItWorks() {
-  const [activeSection, setActiveSection] = useState('mentee');
+  const [activeSection, setActiveSection] = useState("mentee");
 
   const handleMentor = () => {
-    setActiveSection('mentor');
+    setActiveSection("mentor");
   };
 
   const handleMentee = () => {
-    setActiveSection('mentee');
+    setActiveSection("mentee");
   };
 
   return (
@@ -32,27 +32,37 @@ export default function HowItWorks() {
             <div className="flex items-center gap-12">
               <button
                 className={`flex justify-center font-sans text-base items-center gap-2 px-[1rem] py-[.8rem] rounded-[8px] ${
-                  activeSection === 'mentee' ? 'bg-[#1a1b1f] text-[#f9f9f9]' : 'bg-[#f4f4f4] text-[#191919]'
+                  activeSection === "mentee"
+                    ? "bg-[#1a1b1f] text-[#f9f9f9]"
+                    : "bg-[#f4f4f4] text-[#191919]"
                 }`}
                 onClick={handleMentee}
               >
-                <img src={activeSection === 'mentee' ? Mentee : Menteeb} alt="Mentee" />
+                <img
+                  src={activeSection === "mentee" ? Mentee : Menteeb}
+                  alt="Mentee"
+                />
                 Mentee
               </button>
 
               <button
                 className={`flex justify-center font-sans text-base items-center gap-2 py-[.8rem] px-[1rem] rounded-[8px] ${
-                  activeSection === 'mentor' ? 'bg-[#1a1b1f] text-[#f9f9f9]' : 'bg-[#f4f4f4] text-[#191919]'
+                  activeSection === "mentor"
+                    ? "bg-[#1a1b1f] text-[#f9f9f9]"
+                    : "bg-[#f4f4f4] text-[#191919]"
                 }`}
                 onClick={handleMentor}
               >
-                <img src={activeSection === 'mentor' ? Mentorw : Mentor} alt="Mentor" />
+                <img
+                  src={activeSection === "mentor" ? Mentorw : Mentor}
+                  alt="Mentor"
+                />
                 Mentor
               </button>
             </div>
           </div>
 
-          {activeSection === 'mentee' && (
+          {activeSection === "mentee" && (
             <div className="flex flex-col w-full md:flex-row gap-8">
               <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#BEDAF7] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
                 <img className="lg:w-[6rem] w-[4rem]" src={Book} alt="" />
@@ -90,15 +100,15 @@ export default function HowItWorks() {
                   </h2>
                   <p className="font-neue font-normal text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
                     With the support of your mentor, you'll have access to
-                    feedback, advice, and resources to help you achieve your goals
-                    and advance your career in the tech industry.
+                    feedback, advice, and resources to help you achieve your
+                    goals and advance your career in the tech industry.
                   </p>
                 </div>
               </div>
             </div>
           )}
 
-          {activeSection === 'mentor' && (
+          {activeSection === "mentor" && (
             <div className="flex flex-col w-full md:flex-row gap-8">
               <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#66cca0] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
                 <img className="lg:w-[6rem] w-[4rem]" src={Book} alt="" />
@@ -107,9 +117,9 @@ export default function HowItWorks() {
                     Apply to become a mentor
                   </h2>
                   <p className="font-neue font-normal text-opacity-50 text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
-                    If you're a designer that has worked on at least one live project and
-                     you’re looking to give back to the community, simply fill out our 
-                     application form to get started.
+                    If you're a designer that has worked on at least one live
+                    project and you’re looking to give back to the community,
+                    simply fill out our application form to get started.
                   </p>
                 </div>
               </div>
@@ -122,8 +132,8 @@ export default function HowItWorks() {
                   </h2>
                   <p className="font-neue font-normal text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
                     Once you've applied, our team will carefully review your
-                    application and pair you with a mentee who can benefit from your
-                    knowledge and experience.
+                    application and pair you with a mentee who can benefit from
+                    your knowledge and experience.
                   </p>
                 </div>
               </div>
@@ -135,30 +145,34 @@ export default function HowItWorks() {
                     Schedule your meetings
                   </h2>
                   <p className="font-neue font-normal text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
-                    You will decide on the meeting times and platforms that work best for both you and your mentees.
-                     You'll provide feedback, advice, and resources to help your mentees.
+                    You will decide on the meeting times and platforms that work
+                    best for both you and your mentees. You'll provide feedback,
+                    advice, and resources to help your mentees.
                   </p>
                 </div>
               </div>
             </div>
           )}
 
-          {activeSection === 'mentee' && (
-                      <div className="flex w-full justify-center items-center">
-                      <button className="button whitespace-nowrap">
-                        Apply Now to Join our Next Cohort
-                      </button>
-                    </div>        
+          {activeSection === "mentee" && (
+            <div className="flex button2 pr-2 pb-2  justify-center items-center">
+              <a href="">
+                <button className="button whitespace-nowrap">
+                  Apply Now to Join our Next Cohort
+                </button>
+              </a>
+            </div>
           )}
 
-          {activeSection === 'mentor' && (
-                      <div className="flex w-full justify-center items-center">
-                      <button className="button whitespace-nowrap">
-                            Become a Mentor
-                      </button>
-                    </div>
+          {activeSection === "mentor" && (
+            <div className="flex button2 pr-2 pb-2 justify-center items-center">
+              <a href="">
+              <button className="button whitespace-nowrap">
+                Become a Mentor
+              </button>
+              </a>
+            </div>
           )}
-
         </div>
       </section>
     </>

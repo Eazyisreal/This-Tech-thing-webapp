@@ -36,11 +36,11 @@ const sections = [
 export default function Footer() {
   return (
     <section className="flex flex-col lg:p-[7.5rem] py-20 px-4 bg-[#191919] gap-20">
-      <div className="flex flex-col lg:flex-row justify-evenly w-full gap-8 lg:gap-[9.5rem]">
-        <div className="flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
+      <div className="flex flex-col md:flex-row justify-evenly w-full gap-8 lg:gap-[9.5rem]">
+        <div className="flex flex-col md:w-[45%] gap-8">
+          <div className="flex flex-col gap-4"> 
             <img className="lg:w-3/4 w-1/4" src={Logo} alt="" />
-            <p className="font-neue font-normal text-base w-full lg:w-3/4 tracking-[0.005em] text-[#f9f9f9]">
+            <p className="font-neue font-normal text-base w-full md:w-3/4 tracking-[0.005em] text-[#f9f9f9]">
               This Tech Thing is a mentorship program
               dedicated to making technology available for the
               general public.
@@ -61,7 +61,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex  flex-col lg:flex-row gap-12 lg:gap-[9.5rem]">
+        <div className="flex w-[45%] flex-col md:flex-row gap-12 lg:gap-[9.5rem]">
           {sections.map((section, index) => (
             <div key={index} className="flex flex-col gap-8">
               <h2 className="font-neue whitespace-nowrap text-[#c2c2c2] text-sm tracking-[0.01em]">
