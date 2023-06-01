@@ -50,6 +50,7 @@ const testimonials = [
 ];
 
 export default function Testimonials() {
+  const duplicatedTestimonials = [...testimonials, ...testimonials];
   return (
     <>
       <section className="bg-[#f4f4f4] flex flex-col lg:p-[7.5rem] gap-[1.5rem] py-20 px-4">
@@ -76,7 +77,7 @@ export default function Testimonials() {
               },
             }}
           >
-            {testimonials.map((testimonial, index) => (
+            {duplicatedTestimonials.map((testimonial, index) => (
               <SwiperSlide key={index} className="swiper-slide">
                 <div className=" bg-white p-8 rounded-lg">
                   <div className="font-neue font-normal text-[#191919] mb-4">
