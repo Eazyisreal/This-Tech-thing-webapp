@@ -1,35 +1,7 @@
-
-
-/* @font-face{ */
-  /* font-family: 'Neue Plak'; */
-  /* src: url('./assets/fonts/Neue-Plak-Bold.ttf') format('truetype'); */
-/* } */
-
-/* @font-face{ */
-  /* font-family: 'Neue Plak'; */
-  /* src: url('./assets/fonts/Neue-Plak-Light.ttf') format('truetype'); */
-/* } */
-
 @font-face{
   font-family: 'Neue Plak';
   src: url('./assets/fonts/Neue-Plak-Bold.ttf') format('truetype');
 }
-
-/* @font-face{ */
-  /* font-family: 'Neue Plak'; */
-  /* src: url('./assets/fonts/Neue-Plak-SemiBold.ttf') format('truetype'); */
-/* } */
-
-/* @font-face{ */
-  /* font-family: 'Neue Plak'; */
-  /* src: url('./assets/fonts/Neue-Plak-Thin.ttf') format('truetype'); */
-/* } */
-
-/* @font-face{ */
-  /* font-family: 'Neue Plak'; */
-  /* src: url('./assets/fonts/Neue-Plak-UltraLight.ttf') format('truetype'); */
-/* } */
-
 
 @font-face{
     font-family: 'Roboto';
