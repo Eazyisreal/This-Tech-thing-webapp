@@ -4,7 +4,7 @@ import Logo from "../assets/images/Logo.svg";
 export default function Header() {
   return (
     <>
-      <header className="flex justify-between md:pt-[2rem] lg:px-[9.5rem]  p-4 bg-[#F9F9F9]">
+      <header className="flex justify-between w-full z-50 md:pt-[2rem] fixed lg:px-[9.5rem]  p-4 bg-[#F9F9F9]">
         <div>
           <img className="lg:w-1/2 w-[42%]" src={Logo} alt="" />
         </div>
