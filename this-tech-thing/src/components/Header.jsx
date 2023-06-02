@@ -17,7 +17,6 @@ export default function Header() {
             <li className="font-normal font-neue  text-base tracking-[0.005em] ">
               <NavLink to="/AboutUs" activeclassname="active">About</NavLink>
             </li>
-
             <li className="font-normal font-neue text-base tracking-[0.005em]">
               <NavLink to="/how-it-works" activeclassname="active">How it works</NavLink>
             </li>
@@ -25,10 +24,10 @@ export default function Header() {
               <a href="">Resources</a>
             </li>
             <li className="font-normal text-base font-neue tracking-[0.005em]">
-              <a href="">Become a mentor</a>
+              <NavLink to="/Mentor">Become a mentor</NavLink>
             </li>
             <li className="font-normal text-base font-neue tracking-[0.005em]">
-              <a href="">Get matched</a>
+              <NavLink to="/Mentee">Get matched</NavLink>
             </li>
           </ul>
         </nav>
