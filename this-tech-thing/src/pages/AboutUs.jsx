@@ -3,6 +3,9 @@ import Header from "../components/Header";
 import AboutHero from "../components/AboutHero";
 import Founder from "../components/Founder";
 import MeetTheTeam from "../components/MeetTheTeam";
+import Cat from "../components/Cat";
+import Footer from "../components/Footer";
+
 
 
 
@@ -14,6 +17,8 @@ export default function AboutUs (){
         <AboutHero />
         <Founder />
         <MeetTheTeam />
+        <Cat />
+        <Footer />
         </>
     );
 };

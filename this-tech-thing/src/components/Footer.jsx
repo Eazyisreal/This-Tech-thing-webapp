@@ -35,8 +35,8 @@ const sections = [
 
 export default function Footer() {
   return (
-    <section className="flex flex-col lg:p-[7.5rem] py-20 px-4 bg-[#191919] gap-20">
-      <div className="flex flex-col md:flex-row justify-evenly w-full gap-8 lg:gap-[9.5rem]">
+    <section className="flex flex-col  pt-20 px-4 bg-[#191919] gap-8">
+      <div className="flex flex-col lg:p-[7.5rem] md:flex-row justify-evenly w-full gap-8 lg:gap-[9.5rem]">
         <div className="flex flex-col md:w-[45%] gap-8">
           <div className="flex flex-col gap-4"> 
             <img className="lg:w-3/4 w-1/4" src={Logo} alt="" />
@@ -83,9 +83,9 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <hr className="flex justify-center items-center  gap-[5.4rem] border-t-[#E4EBF3]"/>
-        <p className="font-neue text-center text-[#c2c2c2] text-sm tracking-[0.01em]">
-           © All rights reserved. This Tech Thing. 2023. Designed by Rachel Johnson
+      <hr className="flex justify-center items-center border-t-[#E4EBF3]"/>
+        <p className="font-neue text-center pb-4 text-[#c2c2c2] text-sm tracking-[0.01em]">
+           © All rights reserved. This Tech Thing. 2023. Designed by Rachel Johnson. Developed by Isreal Aluko
         </p>
     </section>
   );
