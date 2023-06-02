@@ -33,7 +33,7 @@ export default function MeetTheTeam() {
             </div>
              <div className="flex flex-col lg:flex-row justify-between w-full gap-12 lg:gap-20 ">
                 {teamMates.map((teamMate, index) => (
-                    <div key={index} className="flex isolate gap-8 pr-4 pb-4  items-start button2"> 
+                    <div key={index} className="flex isolate md:w-full gap-8 pr-4 pb-4  items-start button2"> 
                         <div className="bg-[#F9F9F9] flex flex-col justify-center rounded-[.8rem] border-[2px] border-[#191919] w-full p-[2rem] gap-8">
                             <img src={teamMate.image} alt="" />
                             <div className="flex flex-col justify-center w-full gap-8">

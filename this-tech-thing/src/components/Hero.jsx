@@ -1,5 +1,5 @@
 import "../index.css";
-
+import { Link } from "react-router-dom";
 import HeroImage from "../assets/images/Hero.svg";
 
 export default function Hero() {
@@ -9,8 +9,8 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row  justify-between gap-[4rem]">
           <div className="flex flex-col lg:p-12 items-start gap-8 ">
             <h2 className="font-semibold font-neue  text-5xl lg:text-[4.9rem] w-full  text-[#191919] sm:leading-[1.1]">
-              Get mentored by <br />
-              experienced design <br />
+              Get mentored by 
+              experienced design 
               professionals for free
             </h2>
 
@@ -20,11 +20,11 @@ export default function Hero() {
               portfolio and advance your career in the tech industry.
             </p>
             <div className="flex flex-col items-center isolate ">
-              <a href="">
+              <Link to="/Mentee">
                 <button className="button text-[#191919] whitespace-nowrap w-[17rem]">
                   Get started for free{" "}
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
 
