@@ -8,6 +8,7 @@ import Menteeb from "../assets/images/Menteeb.svg";
 import Mentor from "../assets/images/Mentor.svg";
 import Mentorw from "../assets/images/Mentorw.svg";
 import Schedule from "../assets/images/Schedule.svg";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function HowItWorks() {
@@ -156,21 +157,21 @@ export default function HowItWorks() {
 
           {activeSection === "mentee" && (
             <div className="flex button2 pr-2 pb-2  justify-center items-center">
-              <a href="">
+              <Link to="/Mentee">
                 <button className="button whitespace-nowrap">
                   Apply Now to Join our Next Cohort
                 </button>
-              </a>
+              </Link>
             </div>
           )}
 
           {activeSection === "mentor" && (
             <div className="flex button2 pr-2 pb-2 justify-center items-center">
-              <a href="">
+              <Link to="/Mentor">
               <button className="button whitespace-nowrap">
                 Become a Mentor
               </button>
-              </a>
+              </Link>
             </div>
           )}
         </div>
