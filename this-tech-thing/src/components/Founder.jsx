@@ -1,6 +1,4 @@
 import "../index.css";
-
-import Arrow from "../assets/images/Arrow.svg";
 import Dara from "../assets/images/Dara.svg";
 import Todesign from "../assets/images/Todesign.svg";
 import SolveProblem from "../assets/images/SolveProblem.svg";

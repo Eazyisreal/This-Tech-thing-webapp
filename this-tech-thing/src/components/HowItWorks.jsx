@@ -156,7 +156,7 @@ export default function HowItWorks() {
           )}
 
           {activeSection === "mentee" && (
-            <div className="flex button2 pr-2 pb-2  justify-center items-center">
+            <div className="flex button2 self-center pr-2 pb-2  justify-center items-center">
               <Link to="/Mentee">
                 <button className="button whitespace-nowrap">
                   Apply Now to Join our Next Cohort
@@ -166,7 +166,7 @@ export default function HowItWorks() {
           )}
 
           {activeSection === "mentor" && (
-            <div className="flex button2 pr-2 pb-2 justify-center items-center">
+            <div className="flex button2 self-center pr-2 pb-2 justify-center items-center">
               <Link to="/Mentor">
               <button className="button whitespace-nowrap">
                 Become a Mentor

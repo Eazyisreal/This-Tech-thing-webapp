@@ -32,7 +32,7 @@ export default function HowItWorksMentor() {
           <img className="lg:w-[6rem] w-[4rem]" src={Anchor} alt="" />
           <div className="flex flex-col gap-8">
             <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
-              Get matched with a mentor
+              Get matched with a ment
             </h2>
             <p className="font-neue font-normal text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
                 Once you've applied, our team will carefully review your application and pair you with 
@@ -54,7 +54,7 @@ export default function HowItWorksMentor() {
         </div>
       </div>
 
-      <div className="flex button2 pr-2 pb-2  justify-center items-center">
+      <div className="flex button2 self-center pr-2 pb-2  justify-center items-center">
         <a href="">
           <button className="button whitespace-nowrap">
             Become a Mentor

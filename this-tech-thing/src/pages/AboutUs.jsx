@@ -12,13 +12,13 @@ import Footer from "../components/Footer";
 
 export default function AboutUs (){
     return(
-        <>
+        <div className="container mx-auto">
         <Header />
         <AboutHero />
         <Founder />
         <MeetTheTeam />
         <Cat />
         <Footer />
-        </>
+        </div>
     );
 };

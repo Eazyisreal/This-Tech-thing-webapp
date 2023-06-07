@@ -42,7 +42,7 @@ export default function Faq() {
         </h2>
       </div>
 
-      <div className="flex button2  pr-2 pb-2 flex-col items-center isolate">
+      <div className="flex button3 md:w-[80%] lg:w-[50%] self-center pr-2 pb-2 flex-col items-center isolate">
         <div className="bg-[#f9f9f9] rounded-[.8rem] w-full border-t-[1px] justify-between border-[#191919] flex flex-col px-12 ">
           {faqData.map((item, index) => (
             <React.Fragment key={index}>
@@ -60,7 +60,7 @@ export default function Faq() {
                 />
               </div>
               {activeIndex === index && (
-                <div className="py-[1.5rem] lg:w-3/4 border-[#191919]">
+                <div className="py-[1.5rem] border-[#191919]">
                   <p className="font-neue font-normal text-base tracking-[0.015em] text-[#191919]">
                     {item.answer} <br/>
                   </p>

@@ -39,7 +39,7 @@ export default function Secure() {
         </h2>
       </div>
 
-      <div className="flex flex-col md:flex-row w-full justify-between gap-12 items-center">
+      <div className="flex flex-col lg:flex-row w-full justify-between gap-20 items-center">
         <div className="flex flex-col  gap-12">
           {cards.map((card, index) => (
             <div
@@ -64,7 +64,7 @@ export default function Secure() {
             </div>
           ))}
         </div>
-        <img className="" src={SecureImage} alt="" />
+        <img className="w-full lg:w-1/2" src={SecureImage} alt="" />
       </div>
     </section>
   );

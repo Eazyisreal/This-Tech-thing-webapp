@@ -1,5 +1,5 @@
 import "../index.css";
-
+import { Link } from "react-router-dom";
 import Arrow from "../assets/images/Arrow.svg";
 import Dara from "../assets/images/Dara.svg";
 import Design from "../assets/images/Design.svg";
@@ -24,11 +24,11 @@ export default function About() {
             </p>
           </div>
           <div className="flex items-center flex-row gap-4">
-            <a href="">
-              <button className="flex  font-neue text-base md:text-xl items-center font-normal gap-4 lg:gap-8 text-[#7DB6EE] z-20 tracking-[0.015em] ">
-                Learn More <img className="" src={Arrow} alt="" />{" "}
+            <Link to="/AboutUs">
+              <button className="flex font-neue text-base md:text-xl items-center font-normal gap-4 lg:gap-8 text-[#7DB6EE] z-20 tracking-[0.015em] ">
+                Learn More <img className="transition-transform duration-300 transform origin-right hover:translate-x-1/2 hover:rotate-10" src={Arrow} alt="" />{" "}
               </button>
-            </a>
+            </Link>
           </div>
         </div>
         <img

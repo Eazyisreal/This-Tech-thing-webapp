@@ -1,5 +1,5 @@
 import "../index.css";
-
+import { Link } from "react-router-dom";
 import Lline from "../assets/images/Lline.svg";
 import Rline from "../assets/images/Rline.svg";
 
@@ -17,10 +17,10 @@ export default function Break() {
             className=" bg-[#191919] w-[24%] md:w-[30%] lg:w-[40%]"
             alt=""
           />
-          <div className="button2 border-none pr-2 pb-2">
-            <a href="">
+          <div className="button2 max-w-full  border-none pr-2 pb-2">
+            <Link to="/Mentee">
               <button className=" button whitespace-nowrap">Apply Now</button>
-            </a>
+            </Link>
           </div>
           <img
             src={Rline}

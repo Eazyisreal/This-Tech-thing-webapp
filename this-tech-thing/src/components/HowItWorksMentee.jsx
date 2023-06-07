@@ -57,7 +57,7 @@ export default function HowItWorksMentee() {
         </div>
       </div>
 
-      <div className="flex button2 pr-2 pb-2  justify-center items-center">
+      <div className="flex button2 self-center pr-2 pb-2  justify-center items-center">
         <a href="">
           <button className="button whitespace-nowrap">
             Apply Now to Join our Next Cohort

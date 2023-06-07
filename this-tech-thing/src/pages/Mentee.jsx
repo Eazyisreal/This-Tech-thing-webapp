@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function Mentee (){
     return(
-        <>
+        <div className="container mx-auto">
             <Header />
             <Hero />
             <HIW />
@@ -17,6 +17,6 @@ export default function Mentee (){
             <MenteeTestimonials/>
             <Cta />
             <Footer />
-        </>
+        </div>
     );
 }

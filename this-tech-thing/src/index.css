@@ -10,6 +10,7 @@
 
 .font-neue{
     font-family: 'Neue Plak', sans-serif;
+    font-weight: 600;
 }
 
 
@@ -17,10 +18,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/*
+
 *{
     outline: 1px solid red;
-}*/
+}
 
 
 /* CSS */
@@ -78,26 +79,45 @@
   color: #f9f9f9;
 }
 
-@media (min-width: 768px) {
-  .button {
-    padding: 0 40px;
-  }
-}
+
 
 .button2{
   align-items: center;
   background-color: #191919;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  /* color: #111; */
   cursor: pointer;
-  display: flex;
+  /* display: flex; */
   font-family: 'Neue Plak',sans-serif;
   font-size: 16px;
-  justify-content: center;
-  align-self: center;
+  /* justify-content: center; */
+  /* align-self: center; */
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
+  transition: transform 0.3s ease-in;
 }
 
+.button2:active{
+ background: none;
+}
+
+.button2:hover{
+  transform: translate(0, 0);
+  background: none;
+}
+
+
+.button3{
+  align-items: center;
+  background-color: #191919;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: 'Neue Plak',sans-serif;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: transform 0.3s ease-in;
+}

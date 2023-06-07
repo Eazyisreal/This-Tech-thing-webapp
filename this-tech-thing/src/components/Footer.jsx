@@ -39,14 +39,14 @@ export default function Footer() {
       <div className="flex flex-col lg:p-[7.5rem] md:flex-row justify-evenly w-full gap-8 lg:gap-[9.5rem]">
         <div className="flex flex-col md:w-[45%] gap-8">
           <div className="flex flex-col gap-4"> 
-            <img className="lg:w-3/4 w-1/4" src={Logo} alt="" />
+            <img className="lg:w-3/4 w-1/3" src={Logo} alt="" />
             <p className="font-neue font-normal text-base w-full md:w-3/4 tracking-[0.005em] text-[#f9f9f9]">
               This Tech Thing is a mentorship program
               dedicated to making technology available for the
               general public.
             </p>
           </div>
-          <div className="flex gap-8">
+          <div className="flex gap-12">
             <a href="" className="">
               <img className="" src={Twitter} alt="" />
             </a>

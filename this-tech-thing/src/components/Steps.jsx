@@ -1,4 +1,5 @@
 import "../index.css";
+import { Link } from "react-router-dom";
 import StepsImage from "../assets/images/StepsImage.svg";
 import Check from "../assets/images/Check.svg";
 
@@ -55,12 +56,12 @@ export default function Steps() {
                 </h3>
               </div>
             </div>
-            <div className="flex w-full justify-center lg:justify-start items-center ">
-              <a href="">
+            <div className="self-center lg:self-start ">
+              <Link to="/Mentee">
                 <button className="button whitespace-nowrap">
                   Apply Now to Join our Next Cohort
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
