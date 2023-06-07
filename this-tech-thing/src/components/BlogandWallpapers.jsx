@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 export default function BlogandWallpapers() {
     return (
-        <div className="flex button3 rounded-[.8rem] self-center items-start pb-2 pr-2 gap-4">
+        <div className="flex button3 rounded-[.8rem]  items-start pb-2 pr-2 gap-4">
             <div className='bg-white flex items-start  border-[#00000] rounded[.4rem] gap-2'>
                 <NavLink to="/blog" className="flex flex-col items-start p-8 gap-2 ">
                     <img src={Icon} alt="" />
