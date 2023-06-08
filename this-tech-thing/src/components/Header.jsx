@@ -58,7 +58,7 @@ export default function Header() {
               </NavLink>
             </li>
             <li className="font-normal text-base font-neue tracking-[0.005em]">
-              <NavLink to="/Mentee" activeClassName="active">
+              <NavLink to="/Mentee" activeclassname="active">
                 Get matched
               </NavLink>
             </li>
@@ -75,7 +75,7 @@ export default function Header() {
               <li className="font-normal font-neue text-base tracking-[0.005em]">
                 <NavLink
                   to="/AboutUs"
-                  activeClassName="active"
+                  activeclassname="active"
                   onClick={toggleMobileMenu}
                 >
                   About
@@ -84,7 +84,7 @@ export default function Header() {
               <li className="font-normal font-neue text-base tracking-[0.005em]">
                 <NavLink
                   to="/how-it-works"
-                  activeClassName="active"
+                  activeclassname="active"
                   onClick={toggleMobileMenu}
                 >
                   How it works
@@ -98,7 +98,7 @@ export default function Header() {
               <li className="font-normal text-base font-neue tracking-[0.005em]">
                 <NavLink
                   to="/Mentor"
-                  activeClassName="active"
+                  activeclassname="active"
                   onClick={toggleMobileMenu}
                 >
                   Become a mentor
@@ -107,7 +107,7 @@ export default function Header() {
               <li className="font-normal text-base font-neue tracking-[0.005em]">
                 <NavLink
                   to="/Mentee"
-                  activeClassName="active"
+                  activeclassname="active"
                   onClick={toggleMobileMenu}
                 >
                   Get matched

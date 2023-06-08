@@ -7,11 +7,6 @@ import Rachel from "../assets/images/Rblogger.svg";
 import Edith from "../assets/images/Eblogger.svg";
 import Ayo from "../assets/images/Ablogger.svg";
 
-
-
-
-
-
 export default function Post() {
     const [activeFilter, setActiveFilter] = useState("All");
     const buttonTitles = ["All", "UX Research", "Case Studies", "Career", "UI Design"];

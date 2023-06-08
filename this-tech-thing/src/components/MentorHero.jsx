@@ -23,7 +23,7 @@ export default function MenteeHero() {
                 grow and develop their skills.
             </p>
             <div className="flex flex-col items-center isolate ">
-              <Link to="/Mentor">
+              <Link to="/MentorsForm">
                 <button className="button text-[#191919] whitespace-nowrap w-[10rem]">
                   Apply Now
                 </button>

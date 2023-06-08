@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite';
-import pugPlugin from 'vite-plugin-pug';
 import react from '@vitejs/plugin-react-swc';
+import pugPlugin from 'vite-plugin-pug';
+import dotenv from 'dotenv';
 
-// https://vitejs.dev/config/
+dotenv.config(); // Load environment variables from .env file
+
 export default defineConfig({
   plugins: [
     react(),
@@ -21,5 +23,4 @@ export default defineConfig({
       use: 'pug-plain-loader',
     },
   ],
-
 });
