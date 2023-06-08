@@ -1,4 +1,5 @@
 import "../index.css";
+import { Link } from "react-router-dom";
 import Smile from "../assets/images/Smile.svg";
 
 export default function Cat() {
@@ -19,11 +20,11 @@ export default function Cat() {
             </div>
 
             <div className="button2  self-start pr-2 pb-2">
-              <a href="">
+              <Link to="/Mentor">
                 <button className="button whitespace-nowrap  ">
                   Apply Now to be a Mentor
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <img className="" src={Smile} alt="" />

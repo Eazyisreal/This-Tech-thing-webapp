@@ -38,7 +38,7 @@ export default function Post() {
             time: "May 2, 2023 · 5 min read",
         },
         {
-            title: "Atomic Design–A Methodical Approach",
+            title: "How to Manage Project Timelines and Deadlines",
             body: "The issue of commuting will always be a global issue, how people move from one point to another will always be something t...",
             image: Time,
             name: "Ayomide Babatunde Saka",
@@ -54,28 +54,30 @@ export default function Post() {
                     <div>
                         <h2 className="font-neue text-4xl lg:text-5xl leading-[1.3] font-normal">All posts</h2>
                     </div>
-                    <div className="flex items-center p-2 gap-4">
+                    <div className="flex items-center p-2 gap-4 overflow-x-auto">
+                        <div className="flex space-x-4">
                         {buttonTitles.map((title, index) => (
                             <button
                                 key={index}
-                                className={`font-neue font-normal text-base tracking-[0.015em] items-center text-center ${activeFilter === title ? "text-white bg-[#1a1b1f]" : "text-[#191919] bg-[#f4f4f4]"
+                                className={`font-neue font-normal whitespace-nowrap text-base tracking-[0.015em] items-center text-center ${activeFilter === title ? "text-white bg-[#1a1b1f]" : "text-[#191919] bg-[#f4f4f4]"
                                     } rounded-[.5rem] px-6 py-2`}
                                 onClick={() => handleFilterClick(title)}
                             >
                                 {title}
                             </button>
                         ))}
+                        </div>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row gap-12 pt-12">
                     {blogPosts.map((post, i) => (
                         <div key={i} className="flex items-start bg-[f9f9f9] rounded-[.8rem] border-[1.5px] pt-[1.5rem] pb-[2rem] px-[1.5rem] border-[#1a1a1a] gap-12">
                             <div className="flex flex-col items-start gap-8 isolate">
-                                <img src={post.image} alt="" />
+                                <img className="w-full" src={post.image} alt="" />
                                 <div className="flex flex-col items-start gap-8">
                                     <div className="flex flex-col items-start gap-4">
                                         <div className="flex flex-col w-full">
-                                            <h2 className="font-neue font-normal text-3xl tracking-[0.005em]">
+                                            <h2 className="font-neue  font-normal text-3xl tracking-[0.005em]">
                                                 {post.title}
                                             </h2>
                                         </div>
