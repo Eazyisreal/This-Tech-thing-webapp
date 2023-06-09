@@ -1,7 +1,19 @@
 @font-face{
   font-family: 'Neue Plak';
-  src: url('./assets/fonts/Neue-Plak-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/Neue-Plak-Text-Bold.ttf') format('truetype');
 }
+
+@font-face{
+  font-family: 'Neue Plak';
+  src: url('./assets/fonts/Neue-Plak-Semi-Bold.ttf') format('truetype');
+}
+
+
+@font-face{
+  font-family: 'Neue Plak';
+  src: url('./assets/fonts/Neue-Plak-Regular.ttf') format('truetype');
+}
+
 
 @font-face{
     font-family: 'Roboto';
@@ -10,7 +22,6 @@
 
 .font-neue{
     font-family: 'Neue Plak', sans-serif;
-    font-weight: 600;
 }
 
 
