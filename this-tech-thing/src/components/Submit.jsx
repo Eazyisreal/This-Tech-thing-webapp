@@ -5,7 +5,7 @@ export default function Submit() {
     return (
         <section className="bg-[#edf5fd]  flex lg:p-[7.5rem] px-4 py-20 ">
             <div className="flex flex-col gap-8 md:flex-row justify-between w-full">
-                <div className="flex flex-col md:w-1/2 lg:w-1/3 p-4 items-start gap-2">
+                <div className="hidden md:block flex-col md:w-1/2 lg:w-1/3 p-4 items-start gap-2">
                     <h2 className="font-neue font-normal text-5xl leading-[1.2]">
                         Join us in making <br />
                         technology <br />
@@ -17,20 +17,24 @@ export default function Submit() {
                     </p>
                 </div>
 
-                <div className="flex flex-col items-start md:w-1/2 gap-4 p-8 bg-white rounded-[.5rem] shadow-lg shadow-[#0000000F]">
-                    <div className="flex flex-col w-full items-start gap-4">
-                        <h2 className="font-neue font-normal text-4xl items-center text-[#191919]">Thanks for your interest in becoming a mentor at This Tech Thing!</h2>
-                        <p className="font-neue font-normal text-base tracking-[0.005em] text-[#191919]">We will be in touch with you shortly.</p>
+                <div className=" md:w-1/2 flex justify-between pr-2 pb-2 button3">
+                    <div className="flex flex-col items-start  gap-4 p-12 bg-white rounded-[.5rem] shadow-lg shadow-[#0000000F]">
+                        <div className="flex flex-col w-full items-start gap-4">
+                            <h2 className="font-neue font-normal text-4xl items-center text-[#191919]">Thanks for your interest in becoming a mentor at This Tech Thing!</h2>
+                            <p className="font-neue font-normal text-base tracking-[0.005em] text-[#191919]">We will be in touch with you shortly.</p>
                         </div>
-                        
-                    <div className="button2 pr-2 pb-2  ">
-                        <Link to="/">
-                            <button className="button text-[#191919] whitespace-nowrap ">
-                                  Go to Home
-                            </button>
-                        </Link>
+                        <div className=" ">
+                            <Link to="/">
+                                <button className="button4 text-[#f9f9f9] whitespace-nowrap ">
+                                    Go to Home
+                                </button>
+                            </Link>
+                        </div>
                     </div>
+
                 </div>
+
+
             </div>
         </section>
     );

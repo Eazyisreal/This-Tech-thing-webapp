@@ -65,56 +65,59 @@ export default function MentorshipForm() {
                         of tech talents with This Tech Thing.
                     </p>
                 </div>
-
-                <div className="flex flex-col items-start md:w-1/2 gap-4 p-8 bg-white rounded-[.5rem] shadow-lg shadow-[#0000000F]">
-                    <div className="flex flex-col w-full items-start gap-4">
-                        <h2 className="font-neue font-normal text-2xl items-center text-[#191919]">Enter your details</h2>
+                <div className="md:w-1/2 button3 pr-2 pb-2">
+                    <div className="flex flex-col items-start gap-4 p-12 bg-white rounded-[.5rem] shadow-lg shadow-[#0000000F]">
                         <div className="flex flex-col w-full items-start gap-4">
-                            {formCards.map((formCard, index) => (
-                                <div key={index} className="flex flex-col w-full items-start gap-2">
-                                    <label
-                                        className="font-neue font-normal text-base tracking-[0.015em] text-[#1a1a1a]"
-                                        htmlFor={formCard.name}
-                                    >
-                                        {formCard.label}
-                                    </label>
-                                    {formCard.inputType === "textarea" ? (
-                                        <textarea
-                                            placeholder={formCard.placeholder}
-                                            className="bg-white rounded-[.4rem] border border-[#737373] w-full p-4"
-                                            name={formCard.name}
-                                            id={formCard.name}
-                                            cols="10"
-                                            rows="5"
-                                            required
-                                            onChange={handleInputChange}
-                                            onBlur={validateForm}
-                                        ></textarea>
-                                    ) : (
-                                        <input
-                                            placeholder={formCard.placeholder}
-                                            className="bg-white rounded-[.4rem] border border-[#737373] w-full p-4"
-                                            type="text"
-                                            name={formCard.name}
-                                            id={formCard.name}
-                                            required
-                                            onChange={handleInputChange}
-                                            onBlur={validateForm}
-                                        />
-                                    )}
-                                </div>
-                            ))}
+                            <h2 className="font-neue font-normal text-2xl items-center text-[#191919]">Enter your details</h2>
+                            <div className="flex flex-col w-full items-start gap-4">
+                                {formCards.map((formCard, index) => (
+                                    <div key={index} className="flex flex-col w-full items-start gap-2">
+                                        <label
+                                            className="font-neue font-normal text-base tracking-[0.015em] text-[#1a1a1a]"
+                                            htmlFor={formCard.name}
+                                        >
+                                            {formCard.label}
+                                        </label>
+                                        {formCard.inputType === "textarea" ? (
+                                            <textarea
+                                                placeholder={formCard.placeholder}
+                                                className="bg-white rounded-[.4rem] border border-[#737373] w-full p-4"
+                                                name={formCard.name}
+                                                id={formCard.name}
+                                                cols="10"
+                                                rows="5"
+                                                required
+                                                onChange={handleInputChange}
+                                                onBlur={validateForm}
+                                            ></textarea>
+                                        ) : (
+                                            <input
+                                                placeholder={formCard.placeholder}
+                                                className="bg-white rounded-[.4rem] border border-[#737373] w-full p-4"
+                                                type="text"
+                                                name={formCard.name}
+                                                id={formCard.name}
+                                                required
+                                                onChange={handleInputChange}
+                                                onBlur={validateForm}
+                                            />
+                                        )}
+                                    </div>
+                                ))}
+                            </div>
                         </div>
-                    </div>
-                    <div className="button2 pr-2 pb-2  ">
-                        <Link to="/FormSubmit">
-                            <button disabled={!isFormValid} className={`button text-[#191919] whitespace-nowrap ${isFormValid ? "" : " opacity-10 cursor-not-allowed"} `}>
-                                Submit
-                            </button>
-                        </Link>
+                            <Link to="/FormSubmit">
+                                <button 
+                                disabled={!isFormValid} 
+                                className={`button4 text-[#191919] whitespace-nowrap ${isFormValid ? "" : " opacity-80 hover:none cursor-not-allowed"} `}
+                                style={{ pointerEvents: isFormValid ? "auto" : "none" }}
+                                >
+                                    Submit
+                                </button>
+                            </Link>
                     </div>
                 </div>
-            </div>
+                </div>
         </section>
     );
 }

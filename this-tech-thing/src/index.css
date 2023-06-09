@@ -121,3 +121,67 @@
   -webkit-user-select: none;
   transition: transform 0.3s ease-in;
 }
+
+
+.button4{
+  align-items: center;
+  background-color: #191919;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #f9f9f9;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Neue Plak',sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button4:hover:after {
+  transform: translate(0, 0);
+}
+
+.button4:active {
+  background-color: #191919;
+  outline: 0;
+}
+.button4:hover {
+  outline: 0;
+  background-color:#f9f9f9;
+  color: #191919;
+}
+
+.button5{
+  align-items: center;
+  background-color: #191919;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #f9f9f9;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Neue Plak',sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
