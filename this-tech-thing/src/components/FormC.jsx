@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const formOptions = [
     {
-        question: 'Hello! Tell us about you and we will  get a perfect mentor for you in the next Cohort.First, how long have you been designing?',
-        options: [`Haven’t started!`, "1-3 months", "3-12 months", "1-2 years", "2+ years"]
+        question: 'What mostly defines your current design goal?',
+        options: [`Learn the fundamentals`, "Build my first project", "Expand my portfolio", "Get a job", "Upskill for my current job"]
     }
 ]
 
@@ -17,13 +17,13 @@ export default function FormC() {
             <Header />
             <section className="bg-[#edf5fd]  flex lg:p-[7.5rem] px-4 py-20 ">
                 <div className="flex flex-col gap-8  w-full">
-                    <div className="flex flex-col items-start gap-4">
+                    <div className="flex flex-col w-full items-start gap-4">
                         <div className="flex gap-2">
                             <img src="" alt="" />
-                            <h2 className="font-neue font-normal text-sm w-full items-start text-[#191919]">1 of 4</h2>
+                            <h2 className="font-neue font-normal text-sm w-full items-start text-[#191919]">3 of 4</h2>
                         </div>
                         {formOptions.map((formOption, index) => (
-                            <div key={index} className="flex flex-col items-start gap-4">
+                            <div key={index} className="flex flex-col w-full items-start gap-4">
                                 <h2 className="md:w-3/5 text-xl font-neue font-normal text-[#191919] tracking-[0.005em]">
                                     {formOption.question}
                                 </h2>
@@ -42,7 +42,7 @@ export default function FormC() {
                         ))}
                     </div>
                     <div className=" ">
-                        <Link to="/">
+                        <Link to="/FormD">
                             <button className="button4 flex gap-4 text-[#f9f9f9] whitespace-nowrap ">
                                 Next
                                 <img src={Arrow} alt="" />

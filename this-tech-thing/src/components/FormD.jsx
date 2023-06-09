@@ -1,13 +1,12 @@
 import "../index.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Arrow from "../assets/images/Arroq.svg";
 import { Link } from "react-router-dom";
 
 const formOptions = [
     {
-        question: 'Amazing! What’s your full name? ',
-        placeholder: 'e.g John Jide',
+        question: 'Awesome! What’s your email address?',
+        placeholder: 'name@gmail.com',
     }
 ]
 
@@ -20,7 +19,7 @@ export default function FormB() {
                     <div className="flex flex-col items-start gap-4">
                         <div className="flex gap-2">
                             <img src="" alt="" />
-                            <h2 className="font-neue font-normal text-sm w-full items-start text-[#191919]">2 of 4</h2>
+                            <h2 className="font-neue font-normal text-sm w-full items-start text-[#191919]">4 of 4</h2>
                         </div>
                         {formOptions.map((formOption, index) => (
                             <div key={index} className="flex flex-col w-full items-start gap-4">
@@ -30,7 +29,7 @@ export default function FormB() {
                                 <form className="flex flex-col w-full md:w-1/4 items-start gap-4">
                                         <input
                                             key={index}
-                                            type="text"
+                                            type="email"
                                             placeholder={formOption.placeholder}
                                             className="p-6 bg-white w-full flex items-start border rounded-[.8rem] font-neue text-[#434343] font-normal text-base -tracking-tight border-[#c2c2c2] "
                                         />
@@ -39,10 +38,9 @@ export default function FormB() {
                         ))}
                     </div>
                     <div className=" ">
-                        <Link to="/FormC">
+                        <Link to="/SubmitForm">
                             <button className="button4 flex gap-4 text-[#f9f9f9] whitespace-nowrap ">
-                                Next
-                                <img src={Arrow} alt="" />
+                                submit
                             </button>
                         </Link>
                     </div>
