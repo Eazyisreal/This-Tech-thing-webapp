@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/images/Logo.svg";
+import Vector from "../assets/images/Vector.svg";
 import BlogandWallpaper from "../components/BlogandWallpapers";
 
 
@@ -47,7 +48,7 @@ export default function Header() {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <NavLink to="/Blog">Resources</NavLink>
+              <NavLink className="flex gap-2" to="/Blog">Resources <img src={Vector} alt="" /> </NavLink>
               {isHovered && (
                 <BlogandWallpaper/>
               )}

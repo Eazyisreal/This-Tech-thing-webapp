@@ -22,7 +22,7 @@ export default function MenteeHero() {
               our program can help you achieve your goals
             </p>
             <div className="flex flex-col items-center isolate ">
-              <Link to="/Mentee">
+              <Link to="/MenteesForm">
                 <button className="button text-[#191919] whitespace-nowrap w-[20rem]">
                   Apply Now to Get Matched
                 </button>
