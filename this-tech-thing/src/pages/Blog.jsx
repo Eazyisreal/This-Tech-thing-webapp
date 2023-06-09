@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export default function Blog (){
     return(
-       <div className="container mx-auto">
+       <div>
             <Header />
             <Hero />
             <Post />

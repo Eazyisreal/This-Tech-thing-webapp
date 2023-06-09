@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 
 export default function AboutUs (){
     return(
-        <div className="container mx-auto">
+        <div>
         <Header />
         <AboutHero />
         <Founder />

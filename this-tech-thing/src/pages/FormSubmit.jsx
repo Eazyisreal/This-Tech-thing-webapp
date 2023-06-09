@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 export default function FormSubmit (){
     return (
-       <div className="container mx-auto">
+       <div>
         <Header />
         <Form />
         <Footer />
