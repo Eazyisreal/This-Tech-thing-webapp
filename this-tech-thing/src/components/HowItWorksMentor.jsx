@@ -17,7 +17,7 @@ export default function HowItWorksMentor() {
       </div>
       <div className="flex flex-col w-full md:flex-row gap-8">
         <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#66cca0] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-          <img className="lg:w-[6rem] w-[4rem]" src={Book} alt="" />
+          <img className="lg:w-[6rem] w-[4rem]"  loading='lazy' src={Book} alt="" />
           <div className="flex flex-col gap-8">
             <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
               Apply to become a mentor
@@ -29,7 +29,7 @@ export default function HowItWorksMentor() {
           </div>
         </div>
         <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#f1f1f1] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-          <img className="lg:w-[6rem] w-[4rem]" src={Anchor} alt="" />
+          <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Anchor} alt="" />
           <div className="flex flex-col gap-8">
             <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
               Get matched with a ment
@@ -41,7 +41,7 @@ export default function HowItWorksMentor() {
           </div>
         </div>
         <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#7db6ee] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-          <img className="lg:w-[6rem] w-[4rem]" src={Schedule} alt="" />
+          <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Schedule} alt="" />
           <div className="flex flex-col gap-8">
             <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
               Schedule your meetings

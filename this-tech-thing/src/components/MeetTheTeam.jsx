@@ -35,7 +35,7 @@ export default function MeetTheTeam() {
                 {teamMates.map((teamMate, index) => (
                     <div key={index} className="flex isolate md:w-full gap-8 pr-4 pb-4  items-start button3"> 
                         <div className="bg-[#F9F9F9] flex flex-col justify-center rounded-[.8rem] border-[2px] border-[#191919] w-full p-[2rem] gap-8">
-                            <img src={teamMate.image} alt="" />
+                            <img src={teamMate.image} loading='lazy' alt="" />
                             <div className="flex flex-col justify-center w-full gap-8">
                                 <div className="flex flex-col px-8 items-center gap-8">
                                     <div className="flex justify-center items-center px-4 py-4 gap-2 bg-[#7DB6EE] rounded-[.4rem]">
@@ -52,9 +52,9 @@ export default function MeetTheTeam() {
                                 </div>
 
                                 <div className="flex justify-center items-start gap-8">
-                                    <img src={Twitter} alt="" />
-                                    <img src={Linkedin} alt="" />
-                                    <img src={Instagram} alt="" />
+                                    <img loading='lazy' src={Twitter} alt="" />
+                                    <img loading='lazy' src={Linkedin} alt="" />
+                                    <img loading='lazy' src={Instagram} alt="" />
                                 </div>
                             </div>
                         </div>

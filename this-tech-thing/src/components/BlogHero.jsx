@@ -15,7 +15,7 @@ export default function BlogHero() {
         </p>
       </div>
       <div className="flex flex-col md:flex-row gap-8 lg:gap-20 w-full items-center lg:px-[2.5rem] lg:pt-[4.5rem]">
-        <img className=" md:w-1/2 " src={HeroImage} alt="" />
+        <img className=" md:w-1/2 " src={HeroImage} loading='lazy' alt="" />
         <div className="flex flex-col items-start gap-4">
           <div className="flex justify-center items-center bg-[#bedaf7] border-[#000000] border rounded-[1.5rem] px-[1.3rem] py-[.5rem]">
             <h3 className="font-sans font-medium text-sm items-center tracking-[0.005em] text-[#191919]">
@@ -37,7 +37,7 @@ export default function BlogHero() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <img src={Dara} alt="" />
+            <img src={Dara} loading='lazy' alt="" />
             <div className="flex flex-col items-start gap-2">
               <h2 className="font-neue font-normal text-sm tracking-[0.01em] text-[#191919]">
                 Dara Sobaloju

@@ -41,7 +41,7 @@ export default function FormA() {
                     <Link to="/FormB">
                         <button className="button4 flex gap-4 text-[#f9f9f9] whitespace-nowrap ">
                             Next
-                            <img src={Arrow} alt="" />
+                            <img loading='lazy' src={Arrow} alt="" />
                         </button>
                     </Link>
                 </div>

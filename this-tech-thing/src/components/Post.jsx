@@ -68,7 +68,7 @@ export default function Post() {
                     {blogPosts.map((post, i) => (
                         <div key={i} className="flex items-start bg-[f9f9f9] rounded-[.8rem] border-[1.5px] pt-[1.5rem] pb-[2rem] px-[1.5rem] border-[#1a1a1a] gap-12">
                             <div className="flex flex-col items-start gap-8 isolate">
-                                <img className="w-full" src={post.image} alt="" />
+                                <img className="w-full" src={post.image} loading='lazy' alt="" />
                                 <div className="flex flex-col items-start gap-8">
                                     <div className="flex flex-col items-start gap-4">
                                         <div className="flex flex-col w-full">
@@ -81,7 +81,7 @@ export default function Post() {
                                         </p>
                                     </div>
                                     <div className="flex items-center gap-4">
-                                        <img src={post.bloggerImage} alt="" />
+                                        <img src={post.bloggerImage} loading='lazy' alt="" />
                                         <div className="flex flex-col items-start gap-2">
                                             <h2 className="font-neue font-normal text-base">
                                                 {post.name}

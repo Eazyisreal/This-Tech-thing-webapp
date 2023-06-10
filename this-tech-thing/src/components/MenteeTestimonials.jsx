@@ -84,7 +84,7 @@ export default function MenteeTestimonials() {
                     "{testimonial.quote}"
                   </div>
                   <div className="flex items-center">
-                    <img className="w-12 h-12 rounded-full mr-4" src={testimonial.image} alt="" />
+                    <img className="w-12 h-12 rounded-full mr-4" loading='lazy' src={testimonial.image} alt="" />
                     <div className="">
                       <h2 className="font-neue font-normal text-2xl text-[#191919] mb-1">{testimonial.name}</h2>
                       <h4 className="font-neue font-normal text-base text-[#191919]">{testimonial.role}</h4>

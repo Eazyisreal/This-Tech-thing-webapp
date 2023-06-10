@@ -36,6 +36,7 @@ export default function MenteeHero() {
               className="w-full hidden md:block h-full  relative"
               src={HeroImage}
               alt="Images of circles"
+              loading='lazy'
             />
           </div>
 
@@ -44,6 +45,7 @@ export default function MenteeHero() {
               className="w-full h-full md:hidden relative"
               src={Menteesm}
               alt="Images of circles"
+              loading='lazy'
             />
           </div>
 

@@ -33,6 +33,7 @@ export default function Hero() {
               className="w-full h-full  relative"
               src={HeroImage}
               alt="Images of circles"
+              loading='lazy'
             />
           </div>
         </div>

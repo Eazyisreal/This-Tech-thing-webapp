@@ -27,7 +27,7 @@ export default function Cta() {
               </Link>
             </div>
           </div>
-          <img className="" src={Imagelaptop} alt="" />
+          <img className="" src={Imagelaptop} loading="lazy" alt="" />
         </div>
       </div>
     </section>

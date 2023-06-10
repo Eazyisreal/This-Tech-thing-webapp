@@ -11,7 +11,7 @@ export default function BlogandWallpapers() {
         <div className="flex button3 rounded-[.8rem]  items-start pb-2 pr-2 gap-4">
             <div className='bg-white flex items-start  border-[#00000] rounded[.4rem] gap-2'>
                 <NavLink to="/blog" className="flex flex-col items-start p-8 gap-2 ">
-                    <img src={Icon} alt="" />
+                    <img src={Icon} loading='lazy'   alt="" />
                     <div className="flex  flex-col items-start p-2 gap-2">
                         <h2 className='font-neue font-normal text-base tracking-[0.01em] text-[#1a1a1a] text-center'>
                             Blog
@@ -27,7 +27,7 @@ export default function BlogandWallpapers() {
 
                 <a href="https://drive.google.com/drive/u/0/folders/1KFgv3yY3YmNaZpAgg0-2wWyFBnURnqxu">
                     <div className='flex flex-col items-start p-4 gap-4 bg-[#edf5fd]'>
-                        <img src={Wallpaper} alt="" />
+                        <img src={Wallpaper} loading='lazy' alt="" />
                         <div className="flex  flex-col items-start p-2 gap-2">
                             <h2 className='font-neue font-normal text-base tracking-[0.01em] text-[#1a1a1a] text-center'>
                                 Download TTT Wallpapers

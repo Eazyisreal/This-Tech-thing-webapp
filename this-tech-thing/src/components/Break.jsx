@@ -16,6 +16,7 @@ export default function Break() {
             src={Lline}
             className=" bg-[#191919] w-[24%] md:w-[30%] lg:w-[40%]"
             alt=""
+            loading="lazy"
           />
           <div className="button2 max-w-full  border-none pr-2 pb-2">
             <Link to="/Mentee">
@@ -24,6 +25,7 @@ export default function Break() {
           </div>
           <img
             src={Rline}
+            loading="lazy"
             className=" bg-[#191919] w-[24%]  md:w-[30%] lg:w-[40%] "
             alt=""
           />

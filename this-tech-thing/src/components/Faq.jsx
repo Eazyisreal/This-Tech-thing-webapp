@@ -57,6 +57,7 @@ export default function Faq() {
                   className=""
                   src={index === activeIndex ? Darrow : Uarrow}
                   alt=""
+                  loading='lazy'
                 />
               </div>
               {activeIndex === index && (
@@ -79,7 +80,7 @@ export default function Faq() {
         </h2>
 
         <div className="button2 pr-2 pb-2">
-          <a href="">
+          <a href="#">
             <button className="button">Contact Us</button>
           </a>
         </div>

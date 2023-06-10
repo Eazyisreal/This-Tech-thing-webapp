@@ -27,7 +27,6 @@ const sections = [
   {
     title: 'CONTACT US',
     items: [
-      'Contact Us',
       'FAQ',
     ],
   },
@@ -47,17 +46,17 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex gap-12">
-            <a href="" className="">
-              <img className="" src={Twitter} alt="" />
+            <a href="#" className="">
+              <img className="" loading='lazy' src={Twitter} alt="" />
             </a>
-            <a href="" className="">
-              <img className="" src={Facebook} alt="" />
+            <a href="#" className="">
+              <img className="" loading='lazy' src={Facebook} alt="" />
             </a>
-            <a href="" className="">
-              <img className="" src={Linkedin} alt="" />
+            <a href="#" className="">
+              <img className="" loading='lazy' src={Linkedin} alt="" />
             </a>
-            <a href="" className="">
-              <img className="" src={Instagram} alt="" />
+            <a href="#" className="">
+              <img className="" loading='lazy' src={Instagram} alt="" />
             </a>
           </div>
         </div>

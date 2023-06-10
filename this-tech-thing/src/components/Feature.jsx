@@ -7,8 +7,8 @@ export default function Feature() {
     <>
       <section className="bg-[#f9f9f9]  z-10 flex flex-col-reverse md:flex-row pt-20 px-8 pb-12 relative justify-betweem items-center gap-8  isolate lg:p-[7.5rem] ">
         <div className="">
-          <img className="md:hidden" src={FeatureImagesm} alt="" />
-          <img className="hidden md:block" src={FeatureImage} alt="" />
+          <img className="md:hidden" loading="lazy" src={FeatureImagesm} alt="" />
+          <img className="hidden md:block" loading='lazy' src={FeatureImage} alt="" />
         </div>
         <div className="flex flex-col w-full gap-8">
           <p className="font-neue text-[#191919] text-3xl lg:text-5xl">

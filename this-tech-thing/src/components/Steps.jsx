@@ -8,7 +8,7 @@ export default function Steps() {
     <>
       <section className="bg-[#7db6ee] rounded-[2rem] border-[2px] gap-[6rem] border-[#000000] flex flex-col md:flex-row justify-between isolate py-20 px-4 lg:p-[7.5rem]">
         <div className="">
-          <img className="w-full" src={StepsImage} alt="" />
+          <img className="w-full" src={StepsImage} loading='lazy' alt="" />
         </div>
 
         <div className="flex flex-col gap-4">
@@ -25,7 +25,7 @@ export default function Steps() {
 
             <div className="flex flex-col gap-4">
               <div className="flex gap-4 items-center">
-                <img src={Check} alt="" />
+                <img src={Check} loading='lazy' alt="" />
                 <h3 className="font-neue text-base font-normal tracking-[0.005em] text-[#191919] ">
                   {" "}
                   Get one-on-one Mentorship and personalized guidance{" "}
@@ -33,7 +33,7 @@ export default function Steps() {
               </div>
 
               <div className="flex gap-4 items-center">
-                <img src={Check} alt="" />
+                <img src={Check} loading='lazy' alt="" />
                 <h3 className="font-neue text-base font-normal tracking-[0.005em] text-[#191919] ">
                   {" "}
                   Be part of group Mentoring sessions led by experienced mentors{" "}
@@ -41,7 +41,7 @@ export default function Steps() {
               </div>
 
               <div className="flex gap-4 items-center">
-                <img src={Check} alt="" />
+                <img src={Check} loading='lazy' alt="" />
                 <h3 className="font-neue text-base font-normal tracking-[0.005em] text-[#191919] ">
                   {" "}
                   Get access to resources such as articles, videos, and tools.{" "}
@@ -49,7 +49,7 @@ export default function Steps() {
               </div>
 
               <div className="flex gap-4 items-center">
-                <img src={Check} alt="" />
+                <img src={Check} loading='lazy' alt="" />
                 <h3 className="font-neue text-base font-normal tracking-[0.005em] text-[#191919] ">
                   {" "}
                   Gain networking opportunities with professionals{" "}

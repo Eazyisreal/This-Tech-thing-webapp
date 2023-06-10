@@ -47,7 +47,7 @@ export default function Secure() {
               className="bg-[#f4f4f4] flex flex-col items-start gap-8"
             >
               <div className="flex items-start gap-8">
-                <img src={card.image} alt="" />
+                <img src={card.image} loading='lazy' alt="" />
                 <div className="flex flex-col items-start gap-4">
                   <div className="flex items-center justify-center gap-4">
                     <h3 className="font-neue font-normal text-3xl text-[#191919] leading-[1.3] ">
@@ -64,7 +64,7 @@ export default function Secure() {
             </div>
           ))}
         </div>
-        <img className="w-full lg:w-1/2" src={SecureImage} alt="" />
+        <img className="w-full lg:w-1/2" src={SecureImage}  loading='lazy' alt="" />
       </div>
     </section>
   );

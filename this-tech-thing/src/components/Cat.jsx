@@ -27,7 +27,7 @@ export default function Cat() {
               </Link>
             </div>
           </div>
-          <img className="" src={Smile} alt="" />
+          <img className="" src={Smile} loading="lazy" alt="" />
         </div>
       </div>
     </section>

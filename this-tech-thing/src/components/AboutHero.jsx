@@ -1,6 +1,6 @@
 import "../index.css";
 import HeroImage from "../assets/images/MenteeHeroImagesm.svg";
-import  MentorStudentImage from "../assets/images/MentorStudentImage.svg";
+import MentorStudentImage from "../assets/images/MentorStudentImage.svg";
 
 
 export default function AboutHero() {
@@ -10,12 +10,12 @@ export default function AboutHero() {
         <div className="flex flex-col lg:flex-row w-full justify-between gap-[2rem]">
           <div className="flex flex-col lg:p-12 items-start gap-8 ">
             <h2 className="font-semibold font-neue  text-5xl lg:text-[4.5rem] w-full  text-[#191919] sm:leading-[1.1]">
-                We are dedicated to making technology accessible to all
+              We are dedicated to making technology accessible to all
             </h2>
 
             <p className="font-normal font-neue text-base  md:text-xl tracking-tight w-full lg:w-[76%] items-center  text-[#191919] leading-[150%]">
-                This Tech Thing is a mentorship program dedicated to making technology  understandable to the general public.
-                 We provide a community for tech enthusiasts to grow their skills and advance their career.
+              This Tech Thing is a mentorship program dedicated to making technology  understandable to the general public.
+              We provide a community for tech enthusiasts to grow their skills and advance their career.
             </p>
           </div>
 
@@ -24,6 +24,8 @@ export default function AboutHero() {
               className="w-full hidden lg:block  h-full  relative"
               src={MentorStudentImage}
               alt="Images of circles"
+              loading="lazy"
+
             />
           </div>
 
@@ -32,6 +34,8 @@ export default function AboutHero() {
               className="w-full lg:hidden h-full  relative"
               src={HeroImage}
               alt="Images of circles"
+              loading="lazy"
+
             />
           </div>
 
