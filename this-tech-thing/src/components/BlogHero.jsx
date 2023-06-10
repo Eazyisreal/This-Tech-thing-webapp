@@ -1,5 +1,5 @@
 import "../index.css";
-import HeroImage from "../assets/images/BlogHeroImage.svg";
+import HeroImage from "../assets/images/BlogHeroImage.webp";
 import Dara from "../assets/images/Darasm.svg";
 
 export default function BlogHero() {

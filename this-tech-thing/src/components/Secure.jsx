@@ -1,9 +1,9 @@
 import "../index.css";
-import SecureImage from "../assets/images/SecureImage.svg";
-import Growth from "../assets/images/GrowthCurve.svg";
-import Happy from "../assets/images/Happy.svg";
-import Network from "../assets/images/Network.svg";
-import Giving from "../assets/images/Giving.svg";
+import SecureImage from "../assets/images/SecureImage.webp";
+import Growth from "../assets/images/GrowthCurve.webp";
+import Happy from "../assets/images/Happy.webp";
+import Network from "../assets/images/Network.webp";
+import Giving from "../assets/images/Giving.webp";
 
 
 

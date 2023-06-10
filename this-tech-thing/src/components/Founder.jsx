@@ -1,5 +1,5 @@
 import "../index.css";
-import Dara from "../assets/images/Dara.svg";
+import Dara from "../assets/images/Dara.webp";
 import Todesign from "../assets/images/Todesign.svg";
 import SolveProblem from "../assets/images/SolveProblem.svg";
 import Design from "../assets/images/Design.svg";

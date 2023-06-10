@@ -1,6 +1,6 @@
 import "../index.css";
-import HeroImage from "../assets/images/MenteeHeroImagesm.svg";
-import MentorStudentImage from "../assets/images/MentorStudentImage.svg";
+import HeroImage from "../assets/images/MenteeHeroImagesm.webp";
+import MentorStudentImage from "../assets/images/MentorStudentImage.webp";
 
 
 export default function AboutHero() {

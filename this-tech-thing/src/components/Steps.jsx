@@ -1,7 +1,7 @@
 import "../index.css";
 import { Link } from "react-router-dom";
-import StepsImage from "../assets/images/StepsImage.svg";
-import Check from "../assets/images/Check.svg";
+import StepsImage from "../assets/images/StepsImage.webp";
+import Check from "../assets/images/Check.webp";
 
 export default function Steps() {
   return (

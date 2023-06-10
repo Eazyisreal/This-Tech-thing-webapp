@@ -1,5 +1,5 @@
 import '../index.css';
-import Icon from "../assets/images/Icon.svg";
+import Icon from "../assets/images/Icon.webp";
 import Wallpaper from "../assets/images/Wallpaper.svg";
 import { NavLink } from "react-router-dom";
 

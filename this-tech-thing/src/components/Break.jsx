@@ -1,7 +1,7 @@
 import "../index.css";
 import { Link } from "react-router-dom";
-import Lline from "../assets/images/Lline.svg";
-import Rline from "../assets/images/Rline.svg";
+import Lline from "../assets/images/Lline.webp";
+import Rline from "../assets/images/Rline.webp";
 
 export default function Break() {
   return (

@@ -1,6 +1,6 @@
 import "../index.css";
 import { Link } from "react-router-dom";
-import Smile from "../assets/images/Smile.svg";
+import Smile from "../assets/images/Smile.webp";
 
 export default function Cat() {
   return (

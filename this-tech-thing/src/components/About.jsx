@@ -1,8 +1,8 @@
 import "../index.css";
 import { Link } from "react-router-dom";
-import Arrow from "../assets/images/Arrow.svg";
-import Dara from "../assets/images/Dara.svg";
-import Design from "../assets/images/Design.svg";
+import Arrow from "../assets/images/Arrow.webp";
+import Dara from "../assets/images/Dara.webp";
+import Design from "../assets/images/Design.webp";
 
 
 export default function About() {

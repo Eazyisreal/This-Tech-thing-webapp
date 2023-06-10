@@ -1,6 +1,6 @@
 import "../index.css";
 import { Link } from "react-router-dom";
-import HeroImage from "../assets/images/Hero.svg";
+import HeroImage from "../assets/images/Hero.webp";
 
 export default function Hero() {
   return (
@@ -33,7 +33,6 @@ export default function Hero() {
               className="w-full h-full  relative"
               src={HeroImage}
               alt="Images of circles"
-              loading='lazy'
             />
           </div>
         </div>

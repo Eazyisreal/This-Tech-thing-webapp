@@ -1,7 +1,7 @@
 import "../index.css";
-import Book from "../assets/images/Book.svg";
-import Anchor from "../assets/images/Anchor.svg";
-import Light from "../assets/images/Light.svg";
+import Book from "../assets/images/Book.webp";
+import Anchor from "../assets/images/Anchor.webp";
+import Light from "../assets/images/Light.webp";
 
 export default function HowItWorksMentee() {
   return (

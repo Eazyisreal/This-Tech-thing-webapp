@@ -1,5 +1,5 @@
 import '../index.css';
-import Logo from '../assets/images/Logow.svg';
+import Logo from '../assets/images/Logow.webp';
 import Twitter from '../assets/images/Twitter.svg';
 import Facebook from '../assets/images/Facebook.svg';
 import Linkedin from '../assets/images/Linkedin.svg';

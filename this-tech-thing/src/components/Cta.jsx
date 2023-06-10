@@ -1,6 +1,6 @@
 import "../index.css";
 import { Link } from "react-router-dom";
-import Imagelaptop from "../assets/images/Imagelaptop.svg";
+import Imagelaptop from "../assets/images/Imagelaptop.webp";
 
 export default function Cta() {
   return (

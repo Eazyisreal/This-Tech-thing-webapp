@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/images/Logo.svg";
+import Logo from "../assets/images/Logo.webp";
 import Vector from "../assets/images/Vector.svg";
 import BlogandWallpaper from "../components/BlogandWallpapers";
 

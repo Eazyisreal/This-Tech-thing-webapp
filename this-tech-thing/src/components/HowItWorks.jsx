@@ -1,13 +1,13 @@
 import "../index.css";
 
-import Anchor from "../assets/images/Anchor.svg";
-import Book from "../assets/images/Book.svg";
-import Light from "../assets/images/Light.svg";
-import Mentee from "../assets/images/Mentee.svg";
-import Menteeb from "../assets/images/Menteeb.svg";
-import Mentor from "../assets/images/Mentor.svg";
-import Mentorw from "../assets/images/Mentorw.svg";
-import Schedule from "../assets/images/Schedule.svg";
+import Anchor from "../assets/images/Anchor.webp";
+import Book from "../assets/images/Book.webp";
+import Light from "../assets/images/Light.webp";
+import Mentee from "../assets/images/Mentee.webp";
+import Menteeb from "../assets/images/Menteeb.webp";
+import Mentor from "../assets/images/Mentor.webp";
+import Mentorw from "../assets/images/Mentorw.webp";
+import Schedule from "../assets/images/Schedule.webp";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 

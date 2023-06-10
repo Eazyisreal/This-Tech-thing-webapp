@@ -1,6 +1,6 @@
 import "../index.css";
-import FeatureImage from "../assets/images/FeatureImage.svg";
-import FeatureImagesm from "../assets/images/FeatureImagesm.svg";
+import FeatureImage from "../assets/images/FeatureImage.webp";
+import FeatureImagesm from "../assets/images/FeatureImagesm.webp";
 
 export default function Feature() {
   return (

@@ -1,6 +1,6 @@
 import "../index.css";
-import Small from "../assets/images/Small.svg";
-import MentorshipImage from "../assets/images/Mentorship.svg";
+import Small from "../assets/images/Small.webp";
+import MentorshipImage from "../assets/images/Mentorship.webp";
 
 export default function Mentorship() {
   return (

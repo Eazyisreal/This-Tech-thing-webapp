@@ -1,11 +1,11 @@
 import "../index.css";
 import { useState } from "react";
-import Spectral from "../assets/images/BlogImage1.svg";
-import Pro from "../assets/images/BlogImage2.svg";
-import Time from "../assets/images/BlogImage3.svg";
-import Rachel from "../assets/images/Rblogger.svg";
-import Edith from "../assets/images/Eblogger.svg";
-import Ayo from "../assets/images/Ablogger.svg";
+import Spectral from "../assets/images/BlogImage1.webp";
+import Pro from "../assets/images/BlogImage2.webp";
+import Time from "../assets/images/BlogImage3.webp";
+import Rachel from "../assets/images/Rblogger.webp";
+import Edith from "../assets/images/Eblogger.webp";
+import Ayo from "../assets/images/Ablogger.webp";
 
 export default function Post() {
     const [activeFilter, setActiveFilter] = useState("All");
