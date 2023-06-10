@@ -9,13 +9,15 @@ import Testimonials from "../components/Testimonials";
 import Faq from "../components/Faq";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer";
+import "../index.css";
+
 
 
 
 
 export default function Home (){
     return (
-       <div>
+       <div className='wrapper'>
         <Header />
         <Hero />
         <About />

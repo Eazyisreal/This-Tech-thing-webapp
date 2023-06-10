@@ -5,11 +5,13 @@ import MenteeTestimonials from "../components/MenteeTestimonials";
 import Cta from "../components/Cta";
 import Feature from "../components/Feature";
 import Footer from "../components/Footer";
+import "../index.css";
+
 
 
 export default function Mentee (){
     return(
-        <div>
+        <div className='wrapper'>
             <Header />
             <Hero />
             <HIW />

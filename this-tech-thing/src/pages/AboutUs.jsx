@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 
 export default function AboutUs (){
     return(
-        <div>
+        <div className='wrapper'>
         <Header />
         <AboutHero />
         <Founder />

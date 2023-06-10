@@ -4,11 +4,13 @@ import HIW from "../components/HowItWorksMentor";
 import Cat from "../components/Cat";
 import Secure from "../components/Secure";
 import Footer from "../components/Footer";
+import "../index.css";
+
 
 
 export default function Mentee (){
     return(
-        <div>
+        <div className='wrapper'>
             <Header />
             <Hero />
             <HIW />

@@ -5,7 +5,7 @@
 
 @font-face{
   font-family: 'Neue Plak';
-  src: url('./assets/fonts/Neue-Plak-Semi-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/Neue-Plak-SemiBold.ttf') format('truetype');
 }
 
 
@@ -33,6 +33,12 @@
 *{
     outline: 1px solid red;
 }*/
+
+
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 
 /* CSS */
