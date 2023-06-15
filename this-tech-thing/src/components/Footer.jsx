@@ -1,33 +1,35 @@
 import '../index.css';
+
+import Facebook from '../assets/images/Facebook.svg';
+import Instagram from '../assets/images/Instagram.svg';
+import { Link } from "react-router-dom";
+import Linkedin from '../assets/images/Linkedin.svg';
 import Logo from '../assets/images/Logow.webp';
 import Twitter from '../assets/images/Twitter.svg';
-import Facebook from '../assets/images/Facebook.svg';
-import Linkedin from '../assets/images/Linkedin.svg';
-import Instagram from '../assets/images/Instagram.svg';
 
 const sections = [
   {
     title: 'ABOUT US',
     items: [
-      'Why This Tech Thing?',
-      'Get matched',
-      'Become a Mentor',
-      'Mentorship program',
-    ],
+      {text: 'Why This Tech Thing?', path: '/AboutUs'},
+      {text: 'Get matched', path: '/Mentee'},
+      {text: 'Become a Mentor', path: '/Mentor'},
+      {text: 'Mentorship program', path: '/Mentee'},
+     ],
   },
 
   {
     title: 'RESOURCES',
     items: [
-      'Blog',
-      'Wallpaper',
-    ],
+      {text: 'Blog', path: '/Blog'},
+      {text: 'Wallpaper', path: '/Mentee'},
+     ],
   },
 
   {
     title: 'CONTACT US',
     items: [
-      'FAQ',
+      {text: 'FAQ', path: '/FAQ'},
     ],
   },
 ];
@@ -72,9 +74,9 @@ export default function Footer() {
                     key={i}
                     className="font-neue text-base whitespace-nowrap font-normal text-[#c2c2c2]"
                   >
-                    <a href="">
-                        {item}
-                    </a>
+                    <Link to={item.path}>
+                        {item.text}
+                    </Link>
                   </li>
                 ))}
               </ul>

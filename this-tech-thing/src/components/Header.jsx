@@ -48,7 +48,7 @@ export default function Header() {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <NavLink className="flex gap-2" to="/Blog">Resources <img src={Vector} alt="" /> </NavLink>
+              <NavLink className="flex relative gap-2" to="/Blog">Resources <img src={Vector} alt="" /> </NavLink>
               {isHovered && (
                 <BlogandWallpaper/>
               )}

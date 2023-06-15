@@ -1,6 +1,7 @@
 import '../index.css';
 import Icon from "../assets/images/Icon.webp";
 import Wallpaper from "../assets/images/Wallpaper.svg";
+import Polygon from "../assets/images/Polygon.svg";
 import { NavLink } from "react-router-dom";
 
 
@@ -8,7 +9,9 @@ import { NavLink } from "react-router-dom";
 
 export default function BlogandWallpapers() {
     return (
-        <div className="flex button3 rounded-[.8rem]  items-start pb-2 pr-2 gap-4">
+        <section>
+            <img src={Polygon} alt="" />
+            <div className="flex button3 absolute left-[50%] rounded-[.8rem]  items-start pb-2 pr-2 gap-4">
             <div className='bg-white flex items-start  border-[#00000] rounded[.4rem] gap-2'>
                 <NavLink to="/blog" className="flex flex-col items-start p-8 gap-2 ">
                     <img src={Icon} loading='lazy'   alt="" />
@@ -24,7 +27,6 @@ export default function BlogandWallpapers() {
                         </p>
                     </div>
                 </NavLink>
-
                 <a href="https://drive.google.com/drive/u/0/folders/1KFgv3yY3YmNaZpAgg0-2wWyFBnURnqxu">
                     <div className='flex flex-col items-start p-4 gap-4 bg-[#edf5fd]'>
                         <img src={Wallpaper} loading='lazy' alt="" />
@@ -38,10 +40,10 @@ export default function BlogandWallpapers() {
                             </p>
                         </div>
                     </div>
-
                 </a>
-
             </div>
         </div>
+
+        </section>
     );
 };
