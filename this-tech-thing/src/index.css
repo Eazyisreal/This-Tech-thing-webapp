@@ -1,32 +1,39 @@
-@font-face{
+@font-face {
   font-family: 'Neue Plak';
   src: url('./assets/fonts/Neue-Plak-Text-Bold.ttf') format('truetype');
+  font-display: swap;
 }
 
-@font-face{
+@font-face {
   font-family: 'Neue Plak';
   src: url('./assets/fonts/Neue-Plak-SemiBold.ttf') format('truetype');
+  font-display: swap;
+
 }
 
 
-@font-face{
+@font-face {
   font-family: 'Neue Plak';
   src: url('./assets/fonts/Neue-Plak-Regular.ttf') format('truetype');
+  font-display: swap;
+
 }
 
 
-@font-face{
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-display: swap;
+
 }
 
-.font-neue{
-    font-family: 'Neue Plak', sans-serif;
+.font-neue {
+  font-family: 'Neue Plak', sans-serif;
 }
 
 
-.font-roboto{
-    font-family: 'Roboto', sans-serif;
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -35,14 +42,14 @@
 }*/
 
 
-.wrapper{
+.wrapper {
   max-width: 1440px;
   margin: 0 auto;
 }
 
 
 /* CSS */
-.button{
+.button {
   align-items: center;
   background-color: #f9f9f9;
   border: 2px solid #111;
@@ -51,7 +58,7 @@
   color: #111;
   cursor: pointer;
   display: flex;
-  font-family: 'Neue Plak',sans-serif;
+  font-family: 'Neue Plak', sans-serif;
   font-size: 16px;
   height: 48px;
   justify-content: center;
@@ -66,7 +73,7 @@
   touch-action: manipulation;
 }
 
-.button:after{
+.button:after {
   background-color: #191919;
   border-radius: 8px;
   content: "";
@@ -92,13 +99,13 @@
 
 .button:hover {
   outline: 0;
-  background-color:#191919;
+  background-color: #191919;
   color: #f9f9f9;
 }
 
 
 
-.button2{
+.button2 {
   align-items: center;
   background-color: #191919;
   border-radius: 8px;
@@ -106,7 +113,7 @@
   /* color: #111; */
   cursor: pointer;
   /* display: flex; */
-  font-family: 'Neue Plak',sans-serif;
+  font-family: 'Neue Plak', sans-serif;
   font-size: 16px;
   /* justify-content: center; */
   /* align-self: center; */
@@ -116,23 +123,23 @@
   transition: transform 0.3s ease-in;
 }
 
-.button2:active{
- background: none;
+.button2:active {
+  background: none;
 }
 
-.button2:hover{
+.button2:hover {
   transform: translate(0, 0);
   background: none;
 }
 
 
-.button3{
+.button3 {
   align-items: center;
   background-color: #191919;
   border-radius: 8px;
   box-sizing: border-box;
   cursor: pointer;
-  font-family: 'Neue Plak',sans-serif;
+  font-family: 'Neue Plak', sans-serif;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
@@ -140,7 +147,7 @@
 }
 
 
-.button4{
+.button4 {
   align-items: center;
   background-color: #191919;
   border: 2px solid #111;
@@ -149,7 +156,7 @@
   color: #f9f9f9;
   cursor: pointer;
   display: flex;
-  font-family: 'Neue Plak',sans-serif;
+  font-family: 'Neue Plak', sans-serif;
   font-size: 16px;
   height: 48px;
   justify-content: center;
@@ -172,13 +179,14 @@
   background-color: #191919;
   outline: 0;
 }
+
 .button4:hover {
   outline: 0;
-  background-color:#f9f9f9;
+  background-color: #f9f9f9;
   color: #191919;
 }
 
-.button5{
+.button5 {
   align-items: center;
   background-color: #191919;
   border: 2px solid #111;
@@ -187,7 +195,7 @@
   color: #f9f9f9;
   cursor: pointer;
   display: flex;
-  font-family: 'Neue Plak',sans-serif;
+  font-family: 'Neue Plak', sans-serif;
   font-size: 16px;
   height: 48px;
   justify-content: center;
@@ -201,4 +209,3 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
