@@ -1,9 +1,9 @@
 import Dara from "../assets/images/DaraT.svg";
-import Adejoke from "../assets/images/Adejoke.svg";
+import Adejoke from "../assets/images/Adejoke.webp";
 import Tehillah from "../assets/images/Tehillah.svg";
 import Twitter from '../assets/images/TwitterB.svg';
-import Linkedin from '../assets/images/LinkedinB.svg';
-import Instagram from '../assets/images/InstagramB.svg';
+import Linkedin from '../assets/images/LinkedinB.webp';
+import Instagram from '../assets/images/InstagramB.webp';
 import "../index.css";
 
 const teamMates = [

@@ -35,7 +35,7 @@ export default function Faq() {
   };
 
   return (
-    <section id="faqSection" className="flex flex-col  w-full justify-center gap-20 py-20 px-4 lg:py-[10rem] lg:px-[7.5] bg-[#7db6ee]">
+    <section id="faqS" className="flex flex-col  w-full justify-center gap-20 py-20 px-4 lg:py-[10rem] lg:px-[7.5] bg-[#7db6ee]">
       <div className="flex gap-2 text-center justify-center">
         <h2 className="font-neue font-normal text-4xl md:text-5xl text-[#000000]">
           Frequently Asked Questions
