@@ -1,14 +1,13 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import Logo from "../assets/images/Logo.webp";
 import Vector from "../assets/images/Vector.svg";
 import BlogandWallpaper from "../components/BlogandWallpapers";
 
-
-
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isHovered, setHovered] = useState(false);
+  const location = useLocation();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -22,24 +21,48 @@ export default function Header() {
     setHovered(false);
   };
 
+  const handleScrollToHowItWorks = () => {
+    const howItWorksSection = document.getElementById("how-it-works");
+    if (howItWorksSection) {
+      howItWorksSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  useEffect(() => {
+    if(location.hash === '#how-it-works'){
+      handleScrollToHowItWorks();
+    }
+  }, [location]);
+
   return (
     <>
-      <header className="flex justify-between w-full z-50 md:pt-[2rem] fixed lg:px-[9.5rem] p-4 bg-[#F9F9F9]">
+      <header className="flex justify-between w-full z-50 md:pt-[2rem] wrapper fixed lg:px-[9.5rem] p-4 bg-[#F9F9F9]">
         <div>
-          <NavLink to="/" activeclassname="active">
-            <img className="lg:w-1/2 w-[42%]" loading='lazy' src={Logo} alt="" />
+          <NavLink to="/" activeClassName="active">
+            <img
+              className="lg:w-1/2 w-[42%]"
+              loading="lazy"
+              src={Logo}
+              alt=""
+            />
           </NavLink>
         </div>
 
         <nav className="hidden md:block">
           <ul className="flex justify-between whitespace-nowrap gap-4">
-            <li className="font-normal font-neue  text-base tracking-[0.005em]">
-              <NavLink to="/AboutUs" activeclassname="active">
+            <li className="font-normal font-neue text-base tracking-[0.005em]">
+              <NavLink to="/AboutUs" activeClassName="active">
                 About
               </NavLink>
             </li>
             <li className="font-normal font-neue text-base tracking-[0.005em]">
-              <NavLink to="/how-it-works" activeclassname="active">
+              <NavLink
+                to="/#how-it-works"
+                smooth={true}
+                duration={500}
+                activeClassName="active"
+                onClick={handleScrollToHowItWorks}
+              >
                 How it works
               </NavLink>
             </li>
@@ -48,18 +71,18 @@ export default function Header() {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <NavLink className="flex relative gap-2" to="/Blog">Resources <img src={Vector} alt="" /> </NavLink>
-              {isHovered && (
-                <BlogandWallpaper/>
-              )}
+              <NavLink className="flex relative gap-2" to="/Blog">
+                Resources <img src={Vector} alt="" />{" "}
+              </NavLink>
+              {isHovered && <BlogandWallpaper />}
             </li>
             <li className="font-normal text-base font-neue tracking-[0.005em]">
-              <NavLink to="/Mentor" activeclassname="active">
+              <NavLink to="/Mentor" activeClassName="active">
                 Become a mentor
               </NavLink>
             </li>
             <li className="font-normal text-base font-neue tracking-[0.005em]">
-              <NavLink to="/Mentee" activeclassname="active">
+              <NavLink to="/Mentee" activeClassName="active">
                 Get matched
               </NavLink>
             </li>
@@ -76,7 +99,7 @@ export default function Header() {
               <li className="font-normal font-neue text-base tracking-[0.005em]">
                 <NavLink
                   to="/AboutUs"
-                  activeclassname="active"
+                  activeClassName="active"
                   onClick={toggleMobileMenu}
                 >
                   About
@@ -84,9 +107,12 @@ export default function Header() {
               </li>
               <li className="font-normal font-neue text-base tracking-[0.005em]">
                 <NavLink
-                  to="/how-it-works"
-                  activeclassname="active"
-                  onClick={toggleMobileMenu}
+                  to="/#how-it-works"
+                  activeClassName="active"
+                  onClick={() => {
+                    toggleMobileMenu();
+                    handleScrollToHowItWorks();
+                  }}
                 >
                   How it works
                 </NavLink>
@@ -99,7 +125,7 @@ export default function Header() {
               <li className="font-normal text-base font-neue tracking-[0.005em]">
                 <NavLink
                   to="/Mentor"
-                  activeclassname="active"
+                  activeClassName="active"
                   onClick={toggleMobileMenu}
                 >
                   Become a mentor
@@ -108,7 +134,7 @@ export default function Header() {
               <li className="font-normal text-base font-neue tracking-[0.005em]">
                 <NavLink
                   to="/Mentee"
-                  activeclassname="active"
+                  activeClassName="active"
                   onClick={toggleMobileMenu}
                 >
                   Get matched

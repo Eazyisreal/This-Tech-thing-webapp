@@ -24,7 +24,7 @@ export default function HowItWorks() {
 
   return (
     <>
-      <section className="bg-[#f9f9f9] flex flex-col justify-center gap-12 lg:px-[7.5rem] px-4 py-20">
+      <section id="how-it-works" className="bg-[#f9f9f9] flex flex-col justify-center gap-12 lg:px-[7.5rem] px-4 py-20">
         <div className="flex flex-col items-start gap-[4.5rem]">
           <div className="flex flex-col w-full justify-between  md:flex-row gap-12">
             <h3 className="font-neue font-normal text-5xl text-[#191919]">
