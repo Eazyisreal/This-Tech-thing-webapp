@@ -66,9 +66,9 @@ export default function Testimonials() {
             slidesPerView={1}
             spaceBetween={30}
             loop={true}
-            autoplay={{ delay: 1500 }}
+            autoplay={{ delay: 500 }}
             breakpoints={{
-              768: {
+              668: {
                 slidesPerView: 2,
               },
 
