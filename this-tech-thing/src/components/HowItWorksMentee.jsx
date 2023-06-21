@@ -15,7 +15,7 @@ export default function HowItWorksMentee() {
           How It works?
         </span>
       </div>
-      <div className="flex flex-col w-full md:flex-row gap-8">
+      <div className="flex flex-col w-full lg:flex-row gap-8">
         <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#BEDAF7] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
           <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Book} alt="" />
           <div className="flex flex-col gap-8">

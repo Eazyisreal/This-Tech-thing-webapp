@@ -1,5 +1,5 @@
 import Dara from "../assets/images/DaraT.svg";
-import Adejoke from "../assets/images/Adejoke.webp";
+import Adejoke from "../assets/images/Adejoke.svg";
 import Tehillah from "../assets/images/Tehillah.svg";
 import Twitter from '../assets/images/TwitterB.svg';
 import Linkedin from '../assets/images/LinkedinB.webp';
@@ -28,14 +28,14 @@ const teamMates = [
 export default function MeetTheTeam() {
     return (
         <section className="flex flex-col gap-12 items-center bg-[#f9f9f9] py-20 px-4 lg:p-[7.5rem] z-20">
-            <div className="flex items-start  ">
+            <div className="flex items-start ">
                 <h2 className="font-neue font-normal text-[#191919] text-5xl "> Meet the Team </h2>
             </div>
-             <div className="flex flex-col lg:flex-row justify-between w-full gap-12 lg:gap-20 ">
+             <div className="flex flex-col lg:flex-row justify-between w-full gap-12 ">
                 {teamMates.map((teamMate, index) => (
-                    <div key={index} className="flex isolate md:w-full gap-8 pr-4 pb-4  items-start button3"> 
+                    <div key={index} className="flex lg:w-[30%]  pr-2 pb-2  items-start button3"> 
                         <div className="bg-[#F9F9F9] flex flex-col justify-center rounded-[.8rem] border-[2px] border-[#191919] w-full p-[2rem] gap-8">
-                            <img src={teamMate.image} loading='lazy' alt="" />
+                            <img src={teamMate.image} loading='lazy' alt="Images of team mates" />
                             <div className="flex flex-col justify-center w-full gap-8">
                                 <div className="flex flex-col px-8 items-center gap-8">
                                     <div className="flex justify-center items-center px-4 py-4 gap-2 bg-[#7DB6EE] rounded-[.4rem]">

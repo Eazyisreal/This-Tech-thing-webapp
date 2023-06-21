@@ -47,7 +47,7 @@ export default function Faq() {
           {faqData.map((item, index) => (
             <React.Fragment key={index}>
               <div
-                className="flex items-center py-[1.5rem] md:gap-80 justify-between w-full border-[#191919]"
+                className="flex items-center py-[1.5rem] justify-between w-full border-[#191919]"
                 onClick={() => toggleQuestion(index)}
               >
                 <h3 className="font-neue font-normal text-base tracking-[0.015em] text-[#191919]">

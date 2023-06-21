@@ -8,7 +8,7 @@ import Design from "../assets/images/Design.webp";
 export default function About() {
   return (
     <>
-      <section className="bg-[#191919] rounded-[2rem] z-10 flex flex-col-reverse md:flex-row  pb-12 relative justify-betweem items-center gap-[3rem] md:gap-[14.2rem] isolate px-8 pt-20  lg:p-[7.5rem] ">
+      <section className="bg-[#191919] rounded-[2rem] z-10 flex flex-col-reverse md:flex-row  pb-12 relative justify-betweem items-center gap-[3rem] lg:gap-[10rem] isolate px-8 pt-20  lg:p-[7.5rem] ">
         <div className="w-full z-50">
           <img className="w-full" src={Dara} loading="lazy" alt="A picture of a man" />
         </div>

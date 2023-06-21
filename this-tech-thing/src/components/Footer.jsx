@@ -23,7 +23,7 @@ const sections = [
     title: 'RESOURCES',
     items: [
       { text: 'Blog', path: '/Blog' },
-      { text: 'Wallpaper', path: '/Mentee' },
+      { text: 'Wallpaper', path: 'https://drive.google.com/drive/u/0/folders/1KFgv3yY3YmNaZpAgg0-2wWyFBnURnqxu' },
     ],
   },
 
@@ -53,11 +53,11 @@ export default function Footer() {
 
   return (
     <section className="flex flex-col  pt-20 px-4 bg-[#191919] gap-8">
-      <div className="flex flex-col lg:p-[7.5rem] md:flex-row justify-evenly w-full gap-8 lg:gap-[9.5rem]">
-        <div className="flex flex-col md:w-[45%] gap-8">
+      <div className="flex flex-col lg:p-[7.5rem] md:flex-row justify-between w-full gap-8 ">
+        <div className="flex flex-col md:w-full gap-8">
           <div className="flex flex-col gap-4">
-            <img className="lg:w-3/4 w-1/3" src={Logo} alt="" />
-            <p className="font-neue font-normal text-base w-full md:w-3/4 tracking-[0.005em] text-[#f9f9f9]">
+            <img className="w-1/3" src={Logo} alt="" />
+            <p className="font-neue font-normal text-base w-full lg:w-3/4  tracking-[0.005em] text-[#f9f9f9]">
               This Tech Thing is a mentorship program
               dedicated to making technology available for the
               general public.
@@ -78,13 +78,13 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex w-[45%] flex-col md:flex-row gap-12 lg:gap-[9.5rem]">
+        <div className="flex w-full flex-col md:flex-row gap-12 lg:gap-[23%] ">
           {sections.map((section, index) => (
-            <div key={index} className="flex flex-col gap-8">
+            <div key={index} className="flex flex-col  md:w-1/3 gap-8">
               <h2 className="font-neue whitespace-nowrap text-[#c2c2c2] text-sm tracking-[0.01em]">
                 {section.title}
               </h2>
-              <ul className="flex flex-col gap-8">
+              <ul className="flex  flex-col gap-8">
                 {section.items.map((item, i) => (
                   <li
                     key={i}
@@ -105,7 +105,7 @@ export default function Footer() {
       </div>
       <hr className="flex justify-center items-center border-t-[#E4EBF3]" />
       <p className="font-neue text-center pb-4 text-[#c2c2c2] text-sm tracking-[0.01em]">
-        © All rights reserved. This Tech Thing. 2023. Designed by Rachel Johnson. Developed by Isreal Aluko
+        © All rights reserved. This Tech Thing. 2023. Designed by <a className='underline hover:text-white' href="https://twitter.com/johnson_rach1">Rachel</a>. Developed by <a className='underline hover:text-white' href="https://www.twitter.com/eazyisreal_dev">Isreal</a>
       </p>
     </section>
   );

@@ -5,7 +5,7 @@ import FeatureImagesm from "../assets/images/FeatureImagesm.webp";
 export default function Feature() {
   return (
     <>
-      <section className="bg-[#f9f9f9]  z-10 flex flex-col-reverse md:flex-row pt-20 px-8 pb-12 relative justify-betweem items-center gap-8  isolate lg:p-[7.5rem] ">
+      <section className="bg-[#f9f9f9]  z-10 flex flex-col-reverse lg:flex-row pt-20 px-8 pb-12 relative justify-betweem items-center gap-8  isolate lg:p-[7.5rem] ">
         <div className="">
           <img className="md:hidden" loading="lazy" src={FeatureImagesm} alt="" />
           <img className="hidden md:block" loading='lazy' src={FeatureImage} alt="" />

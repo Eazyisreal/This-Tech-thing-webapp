@@ -68,9 +68,9 @@ export default function HowItWorks() {
           {activeSection === "mentee" && (
             <div className="flex flex-col w-full md:flex-row gap-8">
               <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#BEDAF7] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-                <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Book} alt="" />
+                <img className=" w-[4rem]" loading='lazy' src={Book} alt="" />
                 <div className="flex flex-col gap-8">
-                  <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
+                  <h2 className="font-neue font-normal text-[1.5rem] whitespace-nowrap text-[#191919]">
                     Apply to become a mentee
                   </h2>
                   <p className="font-neue font-normal text-opacity-50 text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
@@ -82,9 +82,9 @@ export default function HowItWorks() {
               </div>
 
               <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#EDF5FD] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-                <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Anchor} alt="" />
+                <img className=" w-[4rem]" loading='lazy' src={Anchor} alt="" />
                 <div className="flex flex-col gap-8">
-                  <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
+                  <h2 className="font-neue font-normal text-[1.5rem] whitespace-nowrap text-[#191919]"> 
                     Get matched with a mentor
                   </h2>
                   <p className="font-neue font-normal text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
@@ -96,9 +96,9 @@ export default function HowItWorks() {
               </div>
 
               <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#cceedf] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-                <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Light} alt="" />
+                <img className=" w-[4rem]" loading='lazy' src={Light} alt="" />
                 <div className="flex flex-col gap-8">
-                  <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
+                  <h2 className="font-neue font-normal text-[1.5rem]  whitespace-nowrap text-[#191919]">
                     Build your skills and career
                   </h2>
                   <p className="font-neue font-normal text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
@@ -114,9 +114,9 @@ export default function HowItWorks() {
           {activeSection === "mentor" && (
             <div className="flex flex-col w-full md:flex-row gap-8">
               <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#66cca0] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-                <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Book} alt="" />
+                <img className=" w-[4rem]" loading='lazy' src={Book} alt="" />
                 <div className="flex flex-col gap-8">
-                  <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
+                  <h2 className="font-neue font-normal text-[1.5rem] whitespace-nowrap text-[#191919]">
                     Apply to become a mentor
                   </h2>
                   <p className="font-neue font-normal text-opacity-50 text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
@@ -128,9 +128,9 @@ export default function HowItWorks() {
               </div>
 
               <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#EDF5FD] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-                <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Anchor} alt="" />
+                <img className="w-[4rem]" loading='lazy' src={Anchor} alt="" />
                 <div className="flex flex-col gap-8">
-                  <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
+                  <h2 className="font-neue font-normal text-[1.5rem] whitespace-nowrap text-[#191919]">
                     Get matched with a mentee
                   </h2>
                   <p className="font-neue font-normal text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
@@ -142,9 +142,9 @@ export default function HowItWorks() {
               </div>
 
               <div className="flex flex-col w-full py-[3rem] px-[2rem] bg-[#cceedf] gap-[1.7rem] border-[#191919] border-[1.5px] rounded-[.8rem]">
-                <img className="lg:w-[6rem] w-[4rem]" loading='lazy' src={Schedule} alt="" />
+                <img className=" w-[4rem]" loading='lazy' src={Schedule} alt="" />
                 <div className="flex flex-col gap-8">
-                  <h2 className="font-neue font-normal text-[1.8rem] text-[#191919]">
+                  <h2 className="font-neue font-normal text-[1.5rem] whitespace-nowrap text-[#191919]">
                     Schedule your meetings
                   </h2>
                   <p className="font-neue font-normal text-base leading-[1.8] lg:leading-[2] tracking-[0.005em]">
@@ -181,3 +181,4 @@ export default function HowItWorks() {
     </>
   );
 }
+

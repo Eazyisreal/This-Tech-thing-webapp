@@ -7,9 +7,9 @@ export default function AboutHero() {
   return (
     <>
       <section className="bg-[#F9F9F9] flex flex-row z-50 justify-between w-full items-center lg:pt-[5rem] lg:px-[6.25rem] lg:pb-[7.5rem] px-4 py-32 gap-8 sm:gap-16">
-        <div className="flex flex-col lg:flex-row w-full justify-between gap-[2rem]">
-          <div className="flex flex-col lg:p-12 items-start gap-8 ">
-            <h2 className="font-semibold font-neue  text-5xl lg:text-[4.5rem] w-full  text-[#191919] sm:leading-[1.1]">
+        <div className="flex flex-col lg:flex-row w-full gap-4 justify-between">
+          <div className="flex flex-col items-start lg:pt-12 gap-8 ">
+            <h2 className="font-semibold font-neue  text-4xl lg:text-5xl w-full  text-[#191919] sm:leading-[1.1]">
               We are dedicated to making technology accessible to all
             </h2>
 
