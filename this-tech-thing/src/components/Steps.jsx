@@ -6,7 +6,7 @@ import Check from "../assets/images/Check.webp";
 export default function Steps() {
   return (
     <>
-      <section className="bg-[#7db6ee] rounded-[2rem] border-[2px] gap-[6rem] border-[#000000] flex flex-col md:flex-row justify-between isolate py-20 px-4 lg:p-[7.5rem]">
+      <section className="bg-[#7db6ee] rounded-[2rem] border-[2px] gap-[6rem] border-[#000000] flex flex-col lg:flex-row justify-between isolate py-20 px-4 lg:p-[7.5rem]">
         <div className="lg:w-3/4">
           <img className="w-full" src={StepsImage} loading='lazy' alt="" />
         </div>

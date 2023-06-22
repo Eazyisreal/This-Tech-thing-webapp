@@ -45,7 +45,7 @@ export default function Post() {
     return (
         <section className="flex flex-col bg-[#f9f9f9] items-start gap-20 lg:p-[7.5rem] px-4 py-20">
             <div className="flex flex-col items-center w-full justify-between gap-30">
-                <div className="flex flex-col md:flex-row gap-8 w-full justify-between">
+                <div className="flex flex-col lg:flex-row gap-8 w-full justify-between">
                     <div>
                         <h2 className="font-neue text-4xl lg:text-5xl leading-[1.3] font-normal">All posts</h2>
                     </div>
@@ -64,7 +64,7 @@ export default function Post() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row gap-12 pt-12">
+                <div className="flex flex-col lg:flex-row gap-12 pt-12">
                     {blogPosts.map((post, i) => (
                         <div key={i} className="flex items-start bg-[f9f9f9] rounded-[.8rem] border-[1.5px] pt-[1.5rem] pb-[2rem] px-[1.5rem] border-[#1a1a1a] gap-12">
                             <div className="flex flex-col items-start gap-8 isolate">

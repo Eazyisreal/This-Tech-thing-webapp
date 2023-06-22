@@ -55,7 +55,7 @@ export default function MentorshipForm() {
         <section className="bg-[#edf5fd]  flex lg:p-[7.5rem] px-4 py-20 ">
             <div className="flex flex-col gap-8 md:flex-row justify-between w-full">
                 <div className="flex flex-col md:w-1/2 lg:w-1/3 p-4 items-start gap-2">
-                    <h2 className="font-neue font-normal text-5xl leading-[1.2]">
+                    <h2 className="font-neue font-normal text-4xl lg:text-5xl leading-[1.2]">
                         Join us in making <br />
                         technology <br />
                         accessible to all.

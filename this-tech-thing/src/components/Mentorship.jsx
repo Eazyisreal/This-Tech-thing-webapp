@@ -9,7 +9,7 @@ export default function Mentorship() {
         <div className="w-full">
           <img className="relative" loading='lazy' src={Small} alt="" />
           <img
-            className="absolute lg:top-[22%]  md:top-[25%] w-[75%]  top-[52%] left-[12%] md:w-[35%] md:left-[5.5%]  lg:w-[30%] lg:left-[10%]"
+            className="absolute lg:top-[22%]  md:top-[35%] w-[75%]  top-[52%] left-[12%]   lg:w-[30%] lg:left-[10%]"
             src={MentorshipImage}
             alt=""
             loading='lazy'
